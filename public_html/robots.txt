@@ -1,0 +1,8 @@
+# Notice: Collection of data on SmartCoop through automated means is
+# prohibited unless you have express written permission from SmartCoop
+# and may only be conducted for the limited purpose contained in said
+# permission.
+User-agent: *
+Disallow: /admin-panel/
+Disallow: /users/
+# Sitemap: https://www.smartcoophq.org/sitemap.xml

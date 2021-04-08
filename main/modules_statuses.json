@@ -1,0 +1,13 @@
+{
+    "PublicPages": true,
+    "AppUser": true,
+    "SuperAdmin": true,
+    "Admin": true,
+    "SalesRep": true,
+    "StockKeeper": true,
+    "Accountant": true,
+    "DispatchConte": true,
+    "DispatchAdmin": true,
+    "QualityControl": true,
+    "WebAdmin": true
+}
