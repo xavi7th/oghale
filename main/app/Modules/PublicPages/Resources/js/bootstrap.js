@@ -142,12 +142,12 @@ new App({
 	props: {
 		initialPage: JSON.parse(app.dataset.page),
 		resolveComponent: str => {
-			let [section, module] = _.split(str, ',');
+			let [module, page] = _.split(str, ',');
 
 			return import(
 					/* webpackChunkName: "js/[request]" */
 					/* webpackPrefetch: true */
-					`../../../${section}/Resources/js/Pages/${module}.svelte`)
+					`../../../${module}/Resources/js/Pages/${page}.svelte`)
 		},
     resolveErrors: page => ((page.props.flash.error || page.props.errors) || {}),
 		transformProps: props => {

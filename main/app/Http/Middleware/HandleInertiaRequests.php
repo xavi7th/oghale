@@ -57,9 +57,6 @@ class HandleInertiaRequests extends Middleware
         'opening_days' => config('app.opening_days'),
         'opening_hours' => config('app.opening_hours'),
       ],
-      'routes' => function (Request $request) {
-        return Cache::remember('routes', config('cache.user_routes_cache_duration'), fn () => $request->user() ? $request->user()->get_navigation_routes() : get_related_routes('app.', ['GET'], true));
-      },
       'isInertiaRequest' => (bool)request()->header('X-Inertia'),
       'auth' => function (Request $request) {
         return [
