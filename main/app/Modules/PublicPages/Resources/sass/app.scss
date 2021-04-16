@@ -3,3 +3,34 @@
 div.phpdebugbar-widgets-exceptions li.phpdebugbar-widgets-list-item span.phpdebugbar-widgets-type {
 	top: -7px !important;
 }
+
+header{
+  margin: 0;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact{
+  width: 100%;
+  background-color: red;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li,
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li a{
+  font-size: .8em;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li{
+  float: left;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li{
+  margin-right: 30px;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li::after{
+  content: '';
+  clear: both;
+}
+
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li i{
+  margin-right: 10px;
+}
