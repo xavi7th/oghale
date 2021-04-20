@@ -22,7 +22,12 @@ header {
 }
 
 header,
-.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact {
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact,
+.hero,
+.hero .screen,
+.site-main .aboutus-section .ttm_single_image-wrapper img,
+.site-main .history-section .short-info,
+.site-main .history-section .short-info-wrap {
 	width: 100%;
 }
 
@@ -46,17 +51,25 @@ header,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn,
 .ttm-header-wrap .site-branding,
 .ttm-header-wrap .site-navigation,
-.ttm-header-wrap .site-navigation .dropdown .main {
+.ttm-header-wrap .site-navigation .dropdown .main,
+.hero .text-wrapper .wrap .box .checker i,
+.hero .text-wrapper .wrap .box .checker p {
 	float: left;
 }
 
 .header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact {
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact,
+.site-main .featured-icon-box img,
+.site-main .history-section .ttm-history-box-wrapper a,
+.site-main .history-section .short-info a {
 	display: block;
 }
 
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-left .top-contact li,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact li {
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact li,
+.ttm-header-wrap .site-navigation .ttm-header-icon button,
+.site-main .aboutus-section .ttm-list li,
+.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title {
 	font-size: .8em;
 }
 
@@ -74,7 +87,8 @@ header,
 
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper .social-icons,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a {
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a,
+.ttm-header-wrap .site-navigation .ttm-header-icon button {
 	float: right;
 }
 
@@ -86,7 +100,10 @@ header,
 	margin-right: 7px;
 }
 
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a {
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a,
+.site-main .featured-content .featured-desc,
+.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-description,
+.site-main .history-section .ttm-history-box-wrapper a {
 	font-size: .7em;
 }
 
@@ -96,8 +113,12 @@ header,
 	transform: translateY(-3px);
 }
 
-.ttm-header-wrap {
+.ttm-header-wrap,
+.site-main .aboutus-section .ttm-list li {
 	margin-top: 10px;
+}
+
+.ttm-header-wrap {
 	background-color: khaki;
 }
 
@@ -124,39 +145,58 @@ header,
 
 .ttm-header-wrap .site-navigation .ttm-header-icon button {
 	padding: 12px 15px;
-	font-size: .8em;
-	float: right;
 	transform: translateY(-15px);
 }
 
-.hero {
-	width: 100%;
+.hero,
+.site-main .aboutus-section .ttm_single_image-wrapper img {
 	height: 500px;
-	overflow: hidden;
+}
+
+.hero,
+.site-main .aboutus-section .ttm_single_image-wrapper img,
+.site-main .aboutus-section .about-overlay-01{
+  overflow: hidden;
+}
+
+.hero,
+.hero .text-wrapper .wrap,
+.site-main .aboutus-section .position-relative,
+.site-main .aboutus-section .about-overlay-01 .info-wrap,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon{
 	position: relative;
 }
 
-.hero .screen {
+.hero .screen,
+.hero .text-wrapper .wrap .box,
+.site-main .aboutus-section .about-overlay-01,
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon img {
 	position: absolute;
+}
+
+.hero .screen,
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
 	top: 0;
 	left: 0;
-	width: 100%;
+}
+
+.hero .screen {
 	height: 100vh;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.857);
 }
 
-.hero .text-wrapper .wrap {
-	position: relative;
-}
-
 .hero .text-wrapper .wrap .box {
-	position: absolute;
 	right: 0;
 	top: 170px;
 	font-size: 3em;
-	z-index: 99;
 	width: 450px;
+}
+
+.hero .text-wrapper .wrap .box,
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div{
+  z-index: 99;
 }
 
 .hero .text-wrapper .wrap .box h2 {
@@ -166,17 +206,22 @@ header,
 	text-transform: uppercase;
 }
 
-.hero .text-wrapper .wrap .box h2:nth-of-type(2) {
+.hero .text-wrapper .wrap .box h2:nth-of-type(2),
+.site-main .aboutus-section .section-title .title-header {
 	margin-bottom: 40px;
 }
 
-.hero .text-wrapper .wrap .box i {
+.hero .text-wrapper .wrap .box i,
+.hero .text-wrapper .wrap .box p,
+.hero .text-wrapper .wrap .box a {
 	font-size: .3em;
+}
+
+.hero .text-wrapper .wrap .box i {
 	color: green;
 }
 
 .hero .text-wrapper .wrap .box p {
-	font-size: .3em;
 	color: #fff;
 }
 
@@ -184,42 +229,52 @@ header,
 	font-size: .6em;
 }
 
-.hero .text-wrapper .wrap .box .checker i,
-.hero .text-wrapper .wrap .box .checker p {
-	float: left;
-}
-
 .hero .text-wrapper .wrap .box h4 span {
 	margin-left: 20px;
 }
 
 .hero .text-wrapper .wrap .box a {
-	font-size: .3em;
 	padding: 8px 40px;
 	background-color: red;
 }
 
-.site-main {
+.site-main,
+footer {
 	margin-top: 100px;
 }
 
-.site-main .featured-icon-box img {
+.site-main .featured-icon-box img,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon {
 	width: 150px;
-	display: block;
+}
+
+.site-main .featured-icon-box img,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon img {
 	margin: 0 auto;
 }
 
-.site-main .featured-content {
+.site-main .featured-content,
+.site-main .aboutus-section .about-text-box {
 	margin-top: 30px;
+}
+
+.site-main .featured-content,
+.site-main .aboutus-section .section-title .title-header,
+.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title,
+.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-description,
+.site-main .history-section .ttm-history-box-wrapper a,
+.site-main .history-section .short-info p,
+.site-main .history-section .short-info a {
 	text-align: center;
 }
 
-.site-main .featured-content .featured-title {
+.site-main .featured-content .featured-title,
+.site-main .aboutus-section .about-overlay-01 {
 	font-size: .9em;
 }
 
 .site-main .featured-content .featured-desc {
-	font-size: .7em;
 	letter-spacing: 1px;
 }
 
@@ -229,57 +284,36 @@ header,
 	margin-top: 150px;
 }
 
-.site-main .aboutus-section .ttm-list li {
-	font-size: .8em;
-	margin-top: 10px;
+.site-main .aboutus-section .ttm-list li i,
+.site-main .history-section .short-info a {
+	font-size: .5em;
 }
 
 .site-main .aboutus-section .ttm-list li i {
-	font-size: .5em;
 	vertical-align: middle;
 }
 
-.site-main .aboutus-section .about-text-box {
-	margin-top: 30px;
-}
-
 .site-main .aboutus-section .ttm_single_image-wrapper img {
-	width: 100%;
-	height: 500px;
 	background-color: ivory;
-	overflow: hidden;
 }
 
-.site-main .aboutus-section .position-relative {
-	position: relative;
-}
-
-.site-main .aboutus-section .section-title .title-header {
-	text-align: center;
-	margin-bottom: 40px;
-}
-
-.site-main .aboutus-section .section-title .title-header h5 {
+.site-main .aboutus-section .section-title .title-header h5,
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon,
+.site-main .zero-padding-section .section-title h5,
+.site-main .zero-padding-section .section-title h2 {
 	margin-bottom: 20px;
 }
 
 .site-main .aboutus-section .about-overlay-01 {
-	position: absolute;
 	bottom: 20px;
 	right: 20px;
 	height: 40px;
 	background-color: #000;
 	padding: 0 20px;
-	font-size: .9em;
 	box-sizing: border-box;
 	color: #fff;
 	border-radius: 10px;
 	box-shadow: 0 0 20px #000;
-	overflow: hidden;
-}
-
-.site-main .aboutus-section .about-overlay-01 .info-wrap {
-	position: relative;
 }
 
 .site-main .aboutus-section .about-overlay-01 .info-wrap p {
@@ -287,12 +321,8 @@ header,
 }
 
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
-	position: absolute;
 	height: 50px;
 	width: 30px;
-	z-index: 99;
-	top: 0;
-	left: 0;
 	transform: translate(-100px);
 	transition: transform 1s ease;
 	background-color: rgba(255, 255, 255, 0.268);
@@ -312,56 +342,29 @@ header,
 
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon {
 	border: 1.5px solid #000;
-	width: 150px;
 	height: 150px;
-	position: relative;
-	margin: 0 auto;
 	border-radius: 100%;
-	margin-bottom: 20px;
 }
 
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon img {
-	margin: 0 auto;
 	line-height: 150px;
 	width: 70px;
-	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title {
-	font-size: .8em;
-	text-align: center;
-}
-
-.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-description {
-	font-size: .7em;
-	text-align: center;
-}
-
 .site-main .history-section .ttm-history-box-wrapper a {
-	font-size: .7em;
-	text-align: center;
-	display: block;
 	margin-top: 20px;
 }
 
-.site-main .history-section .short-info {
-  width: 100%;
-}
-
 .site-main .history-section .short-info p {
-  text-align: center;
   font-size: 1.5em;
 }
 
 .site-main .history-section .short-info a {
-	display: block;
-	text-align: center;
 	padding: 10px 20px;
 	border-radius: 20px;
-	font-size: .5em;
 	width: 200px;
   margin: 10px auto 0;
 	background-color: khaki;
@@ -369,16 +372,6 @@ header,
 
 .site-main .history-section .short-info-wrap{
   margin-top: 60px;
-  width: 100%;
   padding: 20px 0 30px;
   background-color: green;
-}
-
-.site-main .zero-padding-section .section-title h5,
-.site-main .zero-padding-section .section-title h2{
-  margin-bottom: 20px;
-}
-
-footer {
-	margin-top: 100px;
 }
