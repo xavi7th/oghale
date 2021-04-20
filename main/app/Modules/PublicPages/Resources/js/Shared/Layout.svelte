@@ -1,5 +1,6 @@
 <script>
 	import { page } from "@inertiajs/inertia-svelte";
+  import { inertia } from '@inertiajs/inertia-svelte';
 
 	$: ({ errors } = $page.props);
 </script>
@@ -12,204 +13,149 @@
 		<div class="ttm-topbar-wrapper">
 			<div class="ttm-topbar-content">
 				<div class="container">
-					<ul class="top-contact text-left">
-						<li><i class="la la-map-marker"></i>24 Tech Roqad st Ny 10023</li>
-						<li><i class="la la-envelope-o"></i><a href="mailto:info@example.com.com">info@example.com</a>
-						</li>
-					</ul>
-				</div>
-				<div class="topbar-right text-right">
-					<ul class="top-contact">
+        <div class="topbar-left text-right col-lg-5">
+          <ul class="top-contact text-left">
+            <li><i class="la la-map-marker"></i>24 Tech Roqad st Ny 10023</li>
+            <li><i class="la la-envelope-o"></i><a href="mailto:info@example.com.com">info@example.com</a>
+            </li>
+          </ul>
+        </div>
+
+				<div class="topbar-right text-right col-lg-7">
+					<ul class="top-contact col-lg-7">
 						<li><i class="fa fa-clock-o"></i>Office Hour: 08:00am - 6:00pm</li>
 					</ul>
-					<div class="ttm-social-links-wrapper list-inline">
+					<div class="ttm-social-links-wrapper list-inline col-lg-3">
 						<ul class="social-icons">
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+							<li><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i class="fab fa-facebook"></i></a>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+							<li><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i class="fa fa-flickr"></i></a>
+							<li><a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i class="fab fa-flickr"></i></a>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i class="fa fa-linkedin"></i></a>
+							<li><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i class="fab fa-linkedin"></i></a>
 							</li>
 						</ul>
 					</div>
-					<div class="header-btn">
-						<a class="ttm-btn ttm-btn-size-md  ttm-btn-bgcolor-skincolor" href="#">Get A Quote</a>
-					</div>
+          <div class="header-btn col-lg-2">
+            <a class="ttm-btn ttm-btn-size-md  ttm-btn-bgcolor-skincolor" href="#">Get A Quote</a>
+          </div>
 				</div>
+        <div class="clearfix"></div>
+        </div>
 			</div>
 		</div>
 		<!-- ttm-topbar-wrapper end -->
 		<!-- ttm-header-wrap -->
-		<div class="ttm-header-wrap">
-			<!-- ttm-stickable-header-w -->
-			<div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
-				<div id="site-header-menu" class="site-header-menu">
-					<div class="site-header-menu-inner ttm-stickable-header">
-						<div class="container">
-							<!-- site-branding -->
-							<div class="site-branding">
-								<a class="home-link" href="index.html" title="Altech" rel="home">
-                                  <img id="logo-img" class="img-center lazyload" data-src="images/logo.png" alt="logo">
-                              </a>
-							</div>
-							<!-- site-branding end -->
-							<!--site-navigation -->
-							<div id="site-navigation" class="site-navigation">
-								<div class="ttm-rt-contact">
-									<!-- header-icons -->
-									<div class="ttm-header-icons ">
-										<span class="ttm-header-icon ttm-header-cart-link">
-                                          <a href="#"><i class="ti ti-shopping-cart"></i>
-                                              <span class="number-cart">0</span>
-										</a>
-										</span>
-										<div class="ttm-header-icon ttm-header-search-link">
-											<a href="#"><i class="ti ti-search"></i></a>
-											<div class="ttm-search-overlay">
-												<form method="get" class="ttm-site-searchform" action="#">
-													<div class="w-search-form-h">
-														<div class="w-search-form-row">
-															<div class="w-search-input">
-																<input type="search" class="field searchform-s" name="s" placeholder="Type Word Then Enter...">
-																<button type="submit">
-                                                                  <i class="ti ti-search"></i>
-                                                              </button>
-															</div>
-														</div>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-									<!-- header-icons end -->
-								</div>
-								<div class="ttm-menu-toggle">
-									<input type="checkbox" id="menu-toggle-form" />
-									<label for="menu-toggle-form" class="ttm-menu-toggle-block">
-                                      <span class="toggle-block toggle-blocks-1"></span>
-                                      <span class="toggle-block toggle-blocks-2"></span>
-                                      <span class="toggle-block toggle-blocks-3"></span>
-                                  </label>
-								</div>
-								<nav id="menu" class="menu">
-									<ul class="dropdown">
-										<li class="active"><a href="#">Home</a>
-											<ul>
-												<li class="active"><a href="index.html">Homepage 1</a>
-												</li>
-												<li><a href="home-2.html">Homepage 2</a>
-												</li>
-												<li><a href="home-3.html">Homepage 3</a>
-												</li>
-												<li><a href="#">Header Styles</a>
-													<ul>
-														<li><a href="index.html">Header Style 01</a>
-														</li>
-														<li><a target="_blank" href="header-style-02.html">Header Style 02</a>
-														</li>
-														<li><a target="_blank" href="header-style-03.html">Header Style 03</a>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#">Pages</a>
-											<ul>
-												<li><a href="aboutus-01.html">About Us 1</a>
-												</li>
-												<li><a href="aboutus-02.html">About Us 2</a>
-												</li>
-												<li><a href="services-01.html">Services 1</a>
-												</li>
-												<li><a href="services-02.html">Services 2</a>
-												</li>
-												<li><a href="our-expert.html">Our Expert</a>
-												</li>
-												<li><a href="faq.html">FAQs</a>
-												</li>
-												<li><a href="contact-01.html">Contact Us 1</a>
-												</li>
-												<li><a href="contact-02.html">Contact Us 2</a>
-												</li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- site-branding -->
+        <div class="site-branding col-lg-1">
+          <a class="home-link" href="index.html" title="Altech" rel="home">
+              <img id="logo-img" class="img-center lazyload" src="/img/logo.png" data-src="/img/logo.png" alt="logo">
+          </a>
+        </div>
+        <!-- site-branding end -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-												<li><a href="error.html">Error Page</a>
-												</li>
-												<li><a href="element.html">Elements</a>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#">Services</a>
-											<ul>
-												<li><a href="it-consultancy.html">IT Consultancy</a>
-												</li>
-												<li><a href="digital-services.html">Digital Services</a>
-												</li>
-												<li><a href="advisory-services.html">Advisory Services</a>
-												</li>
-												<li><a href="data-structuring.html">Data Structuring</a>
-												</li>
-												<li><a href="experience-design.html">Experience Design</a>
-												</li>
-												<li><a href="content-engineering.html">Content Engineering</a>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#">Project</a>
-											<ul>
-												<li><a href="project-style-01.html">Project Style 1</a>
-												</li>
-												<li><a href="project-style-02.html">Project Style 2</a>
-												</li>
-												<li><a href="#">Project Single</a>
-													<ul>
-														<li><a href="single-style-01.html">Single Style 1</a>
-														</li>
-														<li><a href="single-style-02.html">Single Style 2</a>
-														</li>
-														<li><a href="single-style-03.html">Single Style 3</a>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#">Blog</a>
-											<ul>
-												<li><a href="blog.html">Blog Classic</a>
-												</li>
-												<li><a href="blog-grid.html">Blog Grid View</a>
-												</li>
-												<li><a href="blog-top-image.html">Blog Top Image</a>
-												</li>
-												<li><a href="blog-left-image.html">Blog Left Image</a>
-												</li>
-												<li><a href="single-blog.html">Blog Single View</a>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#">Shop</a>
-											<ul>
-												<li><a href="shop.html">Default Shop</a>
-												</li>
-												<li><a href="product-details.html">Single Product Details</a>
-												</li>
-												<li><a href="cart.html">Cart</a>
-												</li>
-												<li><a href="checkout.html">Checkout</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-							</div>
-							<!-- site-navigation end-->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ttm-stickable-header-w end-->
-		</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Home <span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" use:inertia>Homepage 1 <span class="sr-only">(current)</span></a>
+                <a class="dropdown-item" href="#" use:inertia>Homepage 2</a>
+                <a class="dropdown-item" href="#" use:inertia>Homepage 3</a>
+                <a class="dropdown-item dropdown-toggle" href="#" id="homebarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Header Styles</a>
+                <div class="dropdown-menu" aria-labelledby="homebarDropdown">
+                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 01</a>
+                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 02</a>
+                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 03</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" use:inertia>About Us 1</a>
+                <a class="dropdown-item" href="#" use:inertia>About Us 2</a>
+                <a class="dropdown-item" href="#" use:inertia>Services 1</a>
+                <a class="dropdown-item" href="#" use:inertia>Services 2</a>
+                <a class="dropdown-item" href="#" use:inertia>Our Expert</a>
+                <a class="dropdown-item" href="#" use:inertia>FAQs</a>
+                <a class="dropdown-item" href="#" use:inertia>Contact Us 1</a>
+                <a class="dropdown-item" href="#" use:inertia>Contact Us 2</a>
+                <a class="dropdown-item" href="#" use:inertia>Error Page</a>
+                <a class="dropdown-item" href="#" use:inertia>Elements</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="it-consultancy.html" use:inertia>IT Consultancy</a>
+                <a class="dropdown-item" href="digital-services.html" use:inertia>Digital Services</a>
+                <a class="dropdown-item" href="advisory-services.html" use:inertia>Advisory Services</a>
+                <a class="dropdown-item" href="data-structuring.html" use:inertia>Data Structuring</a>
+                <a class="dropdown-item" href="experience-design.html" use:inertia>Experience Design</a>
+                <a class="dropdown-item" href="content-engineering.html" use:inertia>Content Engineering</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="project-style-01.html">Project Style 1</a>
+                <a class="dropdown-item" href="project-style-02.html">Project Style 2</a>
+                <a class="dropdown-item dropdown-toggle" href="#" id="projectbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Single</a>
+                <div class="dropdown-menu" aria-labelledby="projectbarDropdown">
+                  <a class="dropdown-item" href="single-style-01.html">Single Style 1</a>
+                  <a class="dropdown-item" href="single-style-02.html">Single Style 2</a>
+                  <a class="dropdown-item" href="single-style-03.html">Single Style 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" use:inertia>Action</a>
+                <a class="dropdown-item" href="blog.html" use:inertia>Blog Classic</a>
+                <a class="dropdown-item" href="blog-grid.html" use:inertia>Blog Grid View</a>
+                <a class="dropdown-item" href="blog-top-image.html" use:inertia>Blog Top Image</a>
+                <a class="dropdown-item" href="blog-left-image.html" use:inertia>Blog Left Image</a>
+                <a class="dropdown-item" href="single-blog.html" use:inertia>Blog Single View</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shop
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" use:inertia>Action</a>
+                <a class="dropdown-item" href="shop.html" use:inertia>Default Shop</a>
+                <a class="dropdown-item" href="product-details.html" use:inertia>Single Product Details</a>
+                <a class="dropdown-item" href="cart.html" use:inertia>Cart</a>
+                <a class="dropdown-item" href="checkout.html" use:inertia>Checkout</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 		<!--ttm-header-wrap end -->
 	</header>
 	<!--header end-->
