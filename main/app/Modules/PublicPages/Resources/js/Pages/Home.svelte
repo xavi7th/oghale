@@ -271,7 +271,7 @@
 					<div class="history-slide">
 						<div class="top-content">
 							<div class="container-fluid">
-								<div class="carousel slide" data-ride="carousel">
+								<div class="carousel carousel-example slide" data-ride="carousel">
 									<div class="carousel-inner row w-100 mx-auto" role="listbox">
 										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
 											<div class="ttm-history-box-wrapper">
@@ -306,7 +306,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 											<!-- ttm-history-box-wrapper  END-->
 											<div class="ttm-history-box-wrapper">
 												<!-- ttm-history-box-wrapper  -->
@@ -341,7 +341,7 @@
 											</div>
 											<!-- ttm-history-box-wrapper  END-->
 										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 											<div class="ttm-history-box-wrapper">
 												<!-- ttm-history-box-wrapper  -->
 												<div class="ttm-history-box-icon-wrapper">
@@ -376,7 +376,7 @@
 											</div>
 											<!-- ttm-history-box-wrapper  END-->
 										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
 											<div class="ttm-history-box-wrapper">
 												<!-- ttm-history-box-wrapper  -->
 												<div class="ttm-history-box-icon-wrapper">
@@ -583,129 +583,805 @@
 				<!-- row end -->
 				<!-- row -->
 				<div class="row">
-					<div class="team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="false">
-						<!-- featured-imagebox-team -->
-						<div class="featured-imagebox featured-imagebox-team style1">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" src="/img/avatars/avatar-1.jpg" data-src="/img/avatars/avatar-1.jpg" alt="first teammate">
-								<div class="ttm-social-links-wrapper">
-									<ul class="social-icons list-inline">
-										<!-- social-icons -->
-										<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-googleplus"><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
-										</li>
-									</ul>
+					<div class="container-fluid">
+						<div class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner row w-100 mx-auto" role="listbox">
+								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+									<!-- featured-imagebox-team -->
+									<div class="featured-imagebox featured-imagebox-team style1">
+										<div class="featured-thumbnail">
+											<!-- featured-thumbnail -->
+											<img class="img-fluid lazyload" src="/img/avatars/avatar-1.jpg" data-src="/img/avatars/avatar-1.jpg" alt="first teammate">
+											<div class="ttm-social-links-wrapper">
+												<ul class="social-icons list-inline">
+													<!-- social-icons -->
+													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-googleplus">
+														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="featured-content box-shadow">
+											<div class="featured-title">
+												<!-- featured-title -->
+												<h5><a href="team-details.html">Jennifer Garcia</a></h5>
+											</div>
+											<p class="category">IT Service Officer</p>
+											<!-- category -->
+										</div>
+									</div>
+									<!-- featured-imagebox-team end-->
 								</div>
-							</div>
-							<div class="featured-content box-shadow">
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="team-details.html">Jennifer Garcia</a></h5>
+								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+									<!-- featured-imagebox-team -->
+									<div class="featured-imagebox featured-imagebox-team style1">
+										<div class="featured-thumbnail">
+											<!-- featured-thumbnail -->
+											<img class="img-fluid lazyload" src="/img/avatars/avatar-3.jpg" data-src="/img/avatars/avatar-3.jpg" alt="second teammate">
+											<div class="ttm-social-links-wrapper">
+												<ul class="social-icons list-inline">
+													<!-- social-icons -->
+													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-googleplus">
+														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="featured-content box-shadow">
+											<div class="featured-title">
+												<!-- featured-title -->
+												<h5><a href="team-details.html">Robert Liam</a></h5>
+											</div>
+											<p class="category">Web Designer</p>
+											<!-- category -->
+										</div>
+									</div>
+									<!-- featured-imagebox-team end-->
 								</div>
-								<p class="category">IT Service Officer</p>
-								<!-- category -->
+								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+									<!-- featured-imagebox-team -->
+									<div class="featured-imagebox featured-imagebox-team style1">
+										<div class="featured-thumbnail">
+											<!-- featured-thumbnail -->
+											<img class="img-fluid lazyload" src="/img/avatars/avatar-2.jpg" data-src="/img/avatars/avatar-2.jpg" alt="third teammate">
+											<div class="ttm-social-links-wrapper">
+												<ul class="social-icons list-inline">
+													<!-- social-icons -->
+													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-googleplus">
+														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="featured-content box-shadow">
+											<div class="featured-title">
+												<!-- featured-title -->
+												<h5><a href="team-details.html">Jessica Ethan</a></h5>
+											</div>
+											<p class="category">Project Manager</p>
+											<!-- category -->
+										</div>
+									</div>
+									<!-- featured-imagebox-team end-->
+								</div>
+								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+									<!-- featured-imagebox-team -->
+									<div class="featured-imagebox featured-imagebox-team style1">
+										<div class="featured-thumbnail">
+											<!-- featured-thumbnail -->
+											<img class="img-fluid lazyload" src="/img/avatars/avatar-3.jpg" data-src="/img/avatars/avatar-3.jpg" alt="forth teammate">
+											<div class="ttm-social-links-wrapper">
+												<ul class="social-icons list-inline">
+													<!-- social-icons -->
+													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													</li>
+													<li class="social-googleplus">
+														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="featured-content box-shadow">
+											<div class="featured-title">
+												<!-- featured-title -->
+												<h5><a href="team-details.html">Amanda Brown</a></h5>
+											</div>
+											<p class="category">Consultant Officer</p>
+											<!-- category -->
+										</div>
+									</div>
+									<!-- featured-imagebox-team end-->
+								</div>
 							</div>
 						</div>
-						<!-- featured-imagebox-team end-->
-						<!-- featured-imagebox-team -->
-						<div class="featured-imagebox featured-imagebox-team style1">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/team-member/team-img02.jpg" alt="second teammate">
-								<div class="ttm-social-links-wrapper">
-									<ul class="social-icons list-inline">
-										<!-- social-icons -->
-										<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-googleplus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="featured-content box-shadow">
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="team-details.html">Robert Liam</a></h5>
-								</div>
-								<p class="category">Web Designer</p>
-								<!-- category -->
-							</div>
-						</div>
-						<!-- featured-imagebox-team end-->
-						<!-- featured-imagebox-team -->
-						<div class="featured-imagebox featured-imagebox-team style1">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/team-member/team-img03.jpg" alt="third teammate">
-								<div class="ttm-social-links-wrapper">
-									<ul class="social-icons list-inline">
-										<!-- social-icons -->
-										<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-googleplus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="featured-content box-shadow">
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="team-details.html">Jessica Ethan</a></h5>
-								</div>
-								<p class="category">Project Manager</p>
-								<!-- category -->
-							</div>
-						</div>
-						<!-- featured-imagebox-team end-->
-						<!-- featured-imagebox-team -->
-						<div class="featured-imagebox featured-imagebox-team style1">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/team-member/team-img04.jpg" alt="forth teammate">
-								<div class="ttm-social-links-wrapper">
-									<ul class="social-icons list-inline">
-										<!-- social-icons -->
-										<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-										</li>
-										<li class="social-googleplus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="featured-content box-shadow">
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="team-details.html">Amanda Brown</a></h5>
-								</div>
-								<p class="category">Consultant Officer</p>
-								<!-- category -->
-							</div>
-						</div>
-						<!-- featured-imagebox-team end-->
 					</div>
 				</div>
 				<!-- row end-->
 			</div>
 		</section>
 		<!-- team-section end -->
+		<!-- first-row-title-section -->
+		<section class="ttm-row first-row-title-section ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img4 clearfix">
+			<div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+			<div class="container">
+				<div class="row">
+					<!-- row -->
+					<div class="col-lg-8 offset-lg-2">
+						<div class="text-center">
+							<div class="ttm-play-icon-btn mb-35">
+								<div class="ttm-play-icon-animation">
+									<a href="https://youtu.be/7e90gBu4pas" target="_self" class="ttm_prettyphoto">
+                    <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-sm ttm-icon_element-style-round">
+                       <i class="fa fa-play"></i>
+                    </div>
+                  </a>
+								</div>
+							</div>
+							<!-- section-title -->
+							<div class="section-title row-title clearfix">
+								<div class="title-header">
+									<h2 class="title">We Provide Outsourced IT Services For Small & <span>Mid-Sized Business</span></h2>
+								</div>
+								<div class="title-desc">Appropriate for your specific business, making it easy for<br> you to have quality IT services. What We Do
+								</div>
+							</div>
+							<!-- section-title end -->
+							<div class="mt-40">
+								<a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">More Services</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- first-row-title-section END-->
+		<!-- testimonial-section end -->
+		<section class="ttm-row zero-padding-section clearfix">
+			<div class="container">
+				<div class="row no-gutters mt_100 res-991-mt-0">
+					<!-- row -->
+					<div class="col-md-6">
+						<div class="ttm-bgcolor-darkgrey ttm-bg ttm-col-bgcolor-yes z-11 position-relative h-100">
+							<div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
+								<div class="ttm-bg-layer-inner"></div>
+							</div>
+							<div class="layer-content">
+								<!-- layer-content -->
+								<div class="spacing-2">
+									<!-- spacing-2 -->
+									<!-- section title -->
+									<div class="section-title with-desc clearfix">
+										<div class="title-header">
+											<h5>What We Do</h5>
+											<h2 class="title">We help you to grow your business <span>Exponentially</span></h2>
+										</div>
+									</div>
+									<!-- section title end -->
+									<!-- progress-bar -->
+									<div class="ttm-progress-bar" data-percent="90%">
+										<div class="progress-bar-title">UI/UX Design</div>
+										<!-- progress-bar-title -->
+										<div class="progress-bar-inner">
+											<div class="progress-bar progress-bar-color-bar_skincolor"></div>
+										</div>
+										<div class="progress-bar-percent" data-percent="90">90%</div>
+										<!-- progress-bar-percent -->
+									</div>
+									<!-- progress-bar END -->
+									<!-- progress-bar -->
+									<div class="ttm-progress-bar" data-percent="80%">
+										<div class="progress-bar-title">App Development</div>
+										<!-- progress-bar-TITLE -->
+										<div class="progress-bar-inner">
+											<div class="progress-bar progress-bar-color-bar_skincolor"></div>
+										</div>
+										<div class="progress-bar-percent" data-percent="80">80%</div>
+										<!-- progress-bar-PERCENT -->
+									</div>
+									<!-- progress-bar END -->
+								</div>
+								<!-- spacing-2 END -->
+							</div>
+							<!-- layer-content END -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-bg-img-two ttm-col-bgimage-yes ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-skincolor">
+							<div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
+								<div class="ttm-bg-layer-inner"></div>
+							</div>
+							<div class="layer-content">
+								<div class="testimonial-slide style1 owl-carousel" data-item="1" data-nav="false" data-dots="true"
+									data-auto="false">
+									<div class="row">
+										<div class="container-fluid">
+
+											<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<img class="d-block w-100" src="..." alt="First slide">
+													</div>
+													<div class="carousel-item">
+														<img class="d-block w-100" src="..." alt="Second slide">
+													</div>
+													<div class="carousel-item">
+														<img class="d-block w-100" src="..." alt="Third slide">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- testimonials -->
+									<div class="testimonials text-center">
+										<div class="testimonial-content">
+											<!-- testimonials-content -->
+											<div class="testimonial-avatar">
+												<div class="testimonial-img">
+													<!-- testimonials-img -->
+													<img class="img-center lazyload" data-src="images/testimonial/01.jpg" alt="testimonial-img">
+												</div>
+											</div>
+											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+												versatile and unique theme created so far. No coding skills.</blockquote>
+											<div class="ttm-ratting-star">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="testimonial-caption">
+												<!-- testimonials-caption -->
+												<h6>Victor Williamson</h6>
+												<span>Web Devloper</span>
+											</div>
+										</div>
+									</div>
+									<!-- testimonials END -->
+									<!-- testimonials -->
+									<div class="testimonials text-center">
+										<div class="testimonial-content">
+											<!-- testimonials-content -->
+											<div class="testimonial-avatar">
+												<div class="testimonial-img">
+													<!-- testimonials-img -->
+													<img class="img-center lazyload" data-src="images/testimonial/02.jpg" alt="testimonial-img">
+												</div>
+											</div>
+											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+												versatile and unique theme created so far. No coding skills.</blockquote>
+											<div class="ttm-ratting-star">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="testimonial-caption">
+												<!-- testimonials-caption -->
+												<h6>Victor Williamson</h6>
+												<span>Web Devloper</span>
+											</div>
+										</div>
+									</div>
+									<!-- testimonials END -->
+									<!-- testimonials -->
+									<div class="testimonials text-center">
+										<div class="testimonial-content">
+											<!-- testimonials-content -->
+											<div class="testimonial-avatar">
+												<div class="testimonial-img">
+													<!-- testimonials-img -->
+													<img class="img-center lazyload" data-src="images/testimonial/03.jpg" alt="testimonial-img">
+												</div>
+											</div>
+											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+												versatile and unique theme created so far. No coding skills.</blockquote>
+											<div class="ttm-ratting-star">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="testimonial-caption">
+												<!-- testimonials-caption -->
+												<h6>Victor Williamson</h6>
+												<span>Web Devloper</span>
+											</div>
+										</div>
+									</div>
+									<!-- testimonials END -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- row end -->
+			</div>
+		</section>
+		<!-- testimonial-section end -->
+		<!-- process-section end -->
+		<section class="ttm-row process-section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- section title -->
+						<div class="section-title text-center with-desc clearfix">
+							<div class="title-header">
+								<h5>how it work</h5>
+								<h2 class="title">Check Out Our Work <span>Process</span></h2>
+							</div>
+						</div>
+						<!-- section title end -->
+					</div>
+				</div>
+				<!-- row -->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="ttm-processbox-wrapper">
+							<div class="row">
+								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
+									<div class="ttm-box-image">
+										<img class="img-fluid lazyload" data-src="images/step-one.jpg" alt="step-one" title="step-one">
+										<div class="process-num">
+											<span class="number">01</span>
+										</div>
+									</div>
+									<div class="featured-content">
+										<div class="featured-title">
+											<h5>Choose a Service</h5>
+										</div>
+										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										</div>
+									</div>
+								</div>
+								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
+									<div class="ttm-box-image">
+										<img class="img-fluid lazyload" data-src="images/step-two.jpg" alt="step-two" title="step-two">
+										<div class="process-num">
+											<span class="number">02</span>
+										</div>
+									</div>
+									<div class="featured-content">
+										<div class="featured-title">
+											<h5>Request a Meeting</h5>
+										</div>
+										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										</div>
+									</div>
+								</div>
+								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
+									<div class="ttm-box-image">
+										<img class="img-fluid lazyload" data-src="images/step-three.jpg" alt="step-three" title="step-three">
+										<div class="process-num">
+											<span class="number">03</span>
+										</div>
+									</div>
+									<div class="featured-content">
+										<div class="featured-title">
+											<h5>Receive Custom Plan</h5>
+										</div>
+										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										</div>
+									</div>
+								</div>
+								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
+									<div class="ttm-box-image">
+										<img class="img-fluid lazyload" data-src="images/step-four.jpg" alt="step-four" title="step-four">
+										<div class="process-num">
+											<span class="number">04</span>
+										</div>
+									</div>
+									<div class="featured-content">
+										<div class="featured-title">
+											<h5>Let’s Make it Happen</h5>
+										</div>
+										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- row end -->
+			</div>
+		</section>
+		<!-- process-section end -->
+		<!-- portfolio-text-section -->
+		<section class="ttm-row bottomzero-padding-section ttm-bgcolor-skincolor ttm-bg ttm-bgimage-yes bg-img5 clearfix">
+			<div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+			<div class="container">
+				<div class="row">
+					<!-- row -->
+					<div class="col-lg-9 col-xl-10 col-md-9">
+						<!-- section-title -->
+						<div class="section-title style2 clearfix">
+							<div class="title-header">
+								<h5>We Make Connections</h5>
+								<h2 class="title">Explore recent <span>Projects</span></h2>
+							</div>
+							<div class="title-desc">A project is a temporary endeavor with a defined beginning and end, scope, and
+								assigned resources.</div>
+						</div>
+						<!-- section-title end -->
+					</div>
+					<div class="col-lg-3 col-xl-2 col-md-3">
+						<div class="text-md-right">
+							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white mb-40" href="#" title=""> Read More </a>
+						</div>
+					</div>
+				</div>
+				<!-- row end -->
+			</div>
+		</section>
+		<!-- portfolio-text-section end -->
+		<!-- portfolio-section -->
+		<section class="ttm-row zero-padding-section clearfix">
+			<div class="container-fluid">
+				<div class="row portfolio-slide owl-carousel ttm-boxes-spacing-10px" data-item="5" data-nav="false"
+					data-dots="false" data-auto="false">
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/01.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/01.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">Business Seminar</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/02.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/02.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">IT Management</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/03.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/03.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">Cyber Security Analysis</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/04.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/04.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">Neural Networking</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/05.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/05.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">Data Management</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+					<div class="col-lg ttm-box-col-wrapper">
+						<!-- featured-imagebox-portfolio -->
+						<div class="featured-imagebox featured-imagebox-portfolio style1">
+							<!-- featured-thumbnail -->
+							<div class="featured-thumbnail">
+								<img class="img-fluid lazyload" data-src="images/portfolio/06.jpg" alt="portfolio-img">
+							</div>
+							<!-- featured-thumbnail end-->
+							<!-- ttm-box-view-overlay -->
+							<div class="ttm-box-view-overlay">
+								<div class="featured-iconbox ttm-media-link">
+									<!-- ttm-media-link -->
+									<a class="ttm_prettyphoto ttm_image" data-gal="prettyPhoto[gallery1]" title="" data-rel="prettyPhoto" href="images/portfolio/06.jpg"><i class="ti ti-search"></i></a>
+									<a href="single-style-01.html" class="ttm_link"><i class="ti ti-link"></i></a>
+								</div>
+							</div>
+							<!-- ttm-box-view-overlay end-->
+							<div class="featured-content">
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-style-01.html">Web Devlopment</a></h5>
+								</div>
+							</div>
+						</div>
+						<!-- featured-thumbnail -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- portfolio-section -->
+		<!-- blog-section end -->
+		<section class="ttm-row blog-section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- section title -->
+						<div class="section-title text-center with-desc clearfix">
+							<div class="title-header">
+								<h5>Our Blog</h5>
+								<h2 class="title">Check Out Our <span>Latest News</span></h2>
+							</div>
+						</div>
+						<!-- section title end -->
+					</div>
+				</div>
+				<!-- row -->
+				<div class="row">
+					<!-- blog-slide -->
+					<div class="blog-slide owl-carousel owl-theme owl-loaded " data-item="3" data-nav="false" data-dots="false"
+						data-auto="false">
+						<!-- featured-imagebox-blog -->
+						<div class="featured-imagebox featured-imagebox-blog">
+							<div class="featured-thumbnail">
+								<!-- featured-thumbnail -->
+								<img class="img-fluid lazyload" data-src="images/blog/05.jpg" alt="">
+								<div class="ttm-blog-overlay-iconbox">
+									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
+								</div>
+								<div class="ttm-box-view-overlay"></div>
+							</div>
+							<div class="featured-content">
+								<!-- featured-content -->
+								<div class="ttm-box-post-date">
+									<!-- ttm-box-post-date -->
+									<span class="ttm-entry-date">
+                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
+									</time>
+									</span>
+								</div>
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a></h5>
+								</div>
+								<div class="post-meta">
+									<!-- post-meta -->
+									<span class="ttm-meta-line"><i class="fa fa-comments"></i>2,comments</span>
+									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+
+								</div>
+								<div class="featured-desc">
+									<!-- featured-description -->
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+										the...</p>
+								</div>
+								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+							</div>
+						</div>
+						<!-- featured-imagebox-blog end -->
+						<!-- featured-imagebox-blog -->
+						<div class="featured-imagebox featured-imagebox-blog">
+							<div class="featured-thumbnail">
+								<!-- featured-thumbnail -->
+								<img class="img-fluid lazyload" data-src="images/blog/04.jpg" alt="">
+								<div class="ttm-blog-overlay-iconbox">
+									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
+								</div>
+								<div class="ttm-box-view-overlay"></div>
+							</div>
+							<div class="featured-content">
+								<!-- featured-content -->
+								<div class="ttm-box-post-date">
+									<!-- ttm-box-post-date -->
+									<span class="ttm-entry-date">
+                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
+									</time>
+									</span>
+								</div>
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-blog.html">Define World Best IT Solution Technology</a></h5>
+								</div>
+								<div class="post-meta">
+									<!-- post-meta -->
+									<span class="ttm-meta-line"><i class="fa fa-comments"></i>3,comments</span>
+									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+
+								</div>
+								<div class="featured-desc">
+									<!-- featured-description -->
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+										the...</p>
+								</div>
+								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+							</div>
+						</div>
+						<!-- featured-imagebox-blog end -->
+						<!-- featured-imagebox-blog -->
+						<div class="featured-imagebox featured-imagebox-blog">
+							<div class="featured-thumbnail">
+								<!-- featured-thumbnail -->
+								<img class="img-fluid lazyload" data-src="images/blog/06.jpg" alt="">
+								<div class="ttm-blog-overlay-iconbox">
+									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
+								</div>
+								<div class="ttm-box-view-overlay"></div>
+							</div>
+							<div class="featured-content">
+								<!-- featured-content -->
+								<div class="ttm-box-post-date">
+									<!-- ttm-box-post-date -->
+									<span class="ttm-entry-date">
+                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
+									</time>
+									</span>
+								</div>
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a></h5>
+								</div>
+								<div class="post-meta">
+									<!-- post-meta -->
+									<span class="ttm-meta-line"><i class="fa fa-comments"></i>1,comments</span>
+									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+
+								</div>
+								<div class="featured-desc">
+									<!-- featured-description -->
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+										the...</p>
+								</div>
+								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+							</div>
+						</div>
+						<!-- featured-imagebox-blog end -->
+						<!-- featured-imagebox-blog -->
+						<div class="featured-imagebox featured-imagebox-blog">
+							<div class="featured-thumbnail">
+								<!-- featured-thumbnail -->
+								<img class="img-fluid lazyload" data-src="images/blog/07.jpg" alt="">
+								<div class="ttm-blog-overlay-iconbox">
+									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
+								</div>
+								<div class="ttm-box-view-overlay"></div>
+							</div>
+							<div class="featured-content">
+								<!-- featured-content -->
+								<div class="ttm-box-post-date">
+									<!-- ttm-box-post-date -->
+									<span class="ttm-entry-date">
+                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
+									</time>
+									</span>
+								</div>
+								<div class="featured-title">
+									<!-- featured-title -->
+									<h5><a href="single-blog.html">Digital Conference Of IT Tech Events in 2019</a></h5>
+								</div>
+								<div class="post-meta">
+									<!-- post-meta -->
+									<span class="ttm-meta-line"><i class="fa fa-comments"></i>4,comments</span>
+									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+
+								</div>
+								<div class="featured-desc">
+									<!-- featured-description -->
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+										the...</p>
+								</div>
+								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+							</div>
+						</div>
+						<!-- featured-imagebox-blog end -->
+					</div>
+				</div>
+				<!-- row end -->
+			</div>
+		</section>
+		<!-- process-section end -->
 	</div>
 	<!--site-main end-->
 </Layout>
