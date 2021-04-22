@@ -1,3 +1,13 @@
+// In this modules's webpack.js file, this app.scss is the entry point. So we can load all our css files in this file using import. It will get outputed into the app.css file in the order they are listed here
+// Make sure the order they are loaded in is correct is correct
+
+@import './vendor/reset.css';
+@import './vendor/bootstrap.min.css';
+@import './vendor/animate.css';
+@import './vendor/line-awesome.min.css';
+@import './vendor/owl.carousel.css';
+@import './vendor/owl.theme.default.css';
+
 // font
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 

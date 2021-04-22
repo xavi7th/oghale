@@ -2,6 +2,23 @@
 	import Layout from "@public-shared/Layout.svelte";
 	// import Slider from "@public-pages/Home/Slider";
 	import { page } from "@inertiajs/inertia-svelte";
+  import { onMount } from 'svelte';
+
+  // here we will call onMountec to make sure the code is mounted to the DOM first before ours fire
+  // Note we are using jQuery() instead of $(). This is because $ is a special symbol in Svelte. We could run it in noCoflict mode if we really must use $
+
+  onMount(() =>{
+    let owl = jQuery( '.owl-carousel' );
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true
+    });
+
+  });
 
 </script>
 
