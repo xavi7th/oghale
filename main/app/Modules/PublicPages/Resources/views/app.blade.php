@@ -32,6 +32,8 @@
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="/fonts/web-fonts-with-css/css/fontawesome-all.min.css">
 	<link rel="stylesheet" href="/css/line-awesome.min.css">
+  <link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/owl.theme.default.css">
 	<link rel="stylesheet" href="/css/app.css">
 
 </head>
@@ -47,7 +49,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+  <script src="/js/owl.carousel.min.js"></script>
 
 	<script src="{{ mix('js/public-vendor.js') }}" async></script>
 	<script src="{{ mix('js/manifest.js') }}" defer></script>

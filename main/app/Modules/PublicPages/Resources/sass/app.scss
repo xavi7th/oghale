@@ -17,7 +17,8 @@ header {
 }
 
 header {
-	position: fixed;
+	// position: fixed;
+  position: relative;
 	z-index: 999999;
 }
 
@@ -27,7 +28,8 @@ header,
 .hero .screen,
 .site-main .aboutus-section .ttm_single_image-wrapper img,
 .site-main .history-section .short-info,
-.site-main .history-section .short-info-wrap {
+.site-main .history-section .short-info-wrap,
+.site-main .team-section .featured-imagebox img {
 	width: 100%;
 }
 
@@ -61,7 +63,9 @@ header,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact,
 .site-main .featured-icon-box img,
 .site-main .history-section .ttm-history-box-wrapper a,
-.site-main .history-section .short-info a {
+.site-main .history-section .short-info a,
+.site-main .team-section .featured-imagebox ul li a,
+.site-main .first-row-title-section .ttm-play-icon-animation a {
 	display: block;
 }
 
@@ -69,7 +73,8 @@ header,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact li,
 .ttm-header-wrap .site-navigation .ttm-header-icon button,
 .site-main .aboutus-section .ttm-list li,
-.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title {
+.site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title,
+.site-main .team-section .featured-imagebox ul li a {
 	font-size: .8em;
 }
 
@@ -114,7 +119,8 @@ header,
 }
 
 .ttm-header-wrap,
-.site-main .aboutus-section .ttm-list li {
+.site-main .aboutus-section .ttm-list li,
+.site-main .team-section .featured-imagebox ul li a {
 	margin-top: 10px;
 }
 
@@ -159,7 +165,8 @@ header,
 .hero .text-wrapper .wrap,
 .site-main .aboutus-section .position-relative,
 .site-main .aboutus-section .about-overlay-01 .info-wrap,
-.site-main .history-section .ttm-history-box-wrapper .ttm-icon{
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon,
+.site-main .team-section .featured-imagebox{
 	position: relative;
 }
 
@@ -167,7 +174,8 @@ header,
 .hero .text-wrapper .wrap .box,
 .site-main .aboutus-section .about-overlay-01,
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div,
-.site-main .history-section .ttm-history-box-wrapper .ttm-icon img {
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon img,
+.site-main .team-section .featured-imagebox ul {
 	position: absolute;
 }
 
@@ -261,7 +269,9 @@ footer {
 .site-main .history-section .ttm-history-box-wrapper .ttm-historybox-description,
 .site-main .history-section .ttm-history-box-wrapper a,
 .site-main .history-section .short-info p,
-.site-main .history-section .short-info a {
+.site-main .history-section .short-info a,
+.site-main .team-section .featured-imagebox ul li a,
+.site-main .first-row-title-section .ttm-play-icon-animation a {
 	text-align: center;
 }
 
@@ -329,12 +339,20 @@ footer {
 	line-height: 40px;
 }
 
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div,
+.site-main .first-row-title-section .ttm-play-icon-animation a{
+  height: 50px;
+}
+
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
-	height: 50px;
-	width: 30px;
 	transform: translate(-100px);
 	transition: transform 1s ease;
 	background-color: rgba(255, 255, 255, 0.268);
+}
+
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div,
+.site-main .team-section .featured-imagebox ul li a{
+  width: 30px;
 }
 
 .site-main .aboutus-section .about-overlay-01:hover .info-wrap .effect-div {
@@ -352,7 +370,11 @@ footer {
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon {
 	border: 1.5px solid #000;
 	height: 150px;
-	border-radius: 100%;
+}
+
+.site-main .history-section .ttm-history-box-wrapper .ttm-icon,
+.site-main .team-section .featured-imagebox ul li a{
+  border-radius: 100%;
 }
 
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon img {
@@ -371,9 +393,13 @@ footer {
   font-size: 1.5em;
 }
 
+.site-main .history-section .short-info a,
+.site-main .first-row-title-section .ttm-play-icon-animation a{
+  border-radius: 20px;
+}
+
 .site-main .history-section .short-info a {
 	padding: 10px 20px;
-	border-radius: 20px;
 	width: 200px;
   margin: 10px auto 0;
 	background-color: khaki;
@@ -385,34 +411,21 @@ footer {
   background-color: green;
 }
 
-.site-main .team-section .featured-imagebox img{
-  width: 100%;
-}
-
 .site-main .team-section .featured-imagebox{
-  position: relative;
   border: 2px solid #000;
 }
 
 .site-main .team-section .featured-imagebox ul{
-  position: absolute;
   top: 50px;
   left: 10px;
 }
 
 .site-main .team-section .featured-imagebox ul li a {
-  display: block;
   height: 30px;
-  width: 30px;
   line-height: 30px;
-  text-align: center;
   background-color: #000;
-  border-radius: 100%;
-  margin-top: 10px;
   color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
-  text-align: center;
-  font-size: .8em;
 }
 
 .site-main .team-section .featured-imagebox{
@@ -429,13 +442,9 @@ footer {
 }
 
 .site-main .first-row-title-section .ttm-play-icon-animation a{
-  display: block;
   width: 90px;
-  height: 50px;
   line-height: 50px;
-  text-align: center;
   margin: 0 auto 20px;
-  border-radius: 20px;
   background-color: #000;
 }
 
@@ -472,6 +481,7 @@ footer{
     }
 }
 @media (min-width: 576px) {
+
     .carousel-item {
         margin-right: 0;
     }

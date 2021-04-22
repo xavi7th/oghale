@@ -50,7 +50,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <!-- site-branding -->
-        <div class="site-branding col-lg-1">
+        <div class="site-branding col-lg-1 col-md-1 col-sm-1">
           <a class="home-link" href="index.html" title="Altech" rel="home">
               <img id="logo-img" class="img-center lazyload" src="/img/logo.png" data-src="/img/logo.png" alt="logo">
           </a>
@@ -141,11 +141,11 @@
                 Shop
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#" use:inertia>Action</a>
-                <a class="dropdown-item" href="shop.html" use:inertia>Default Shop</a>
-                <a class="dropdown-item" href="product-details.html" use:inertia>Single Product Details</a>
-                <a class="dropdown-item" href="cart.html" use:inertia>Cart</a>
-                <a class="dropdown-item" href="checkout.html" use:inertia>Checkout</a>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="shop.html">Default Shop</a>
+                <a class="dropdown-item" href="product-details.html">Single Product Details</a>
+                <a class="dropdown-item" href="cart.html">Cart</a>
+                <a class="dropdown-item" href="checkout.html">Checkout</a>
               </div>
             </li>
           </ul>

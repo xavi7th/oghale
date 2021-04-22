@@ -3,10 +3,32 @@
 	// import Slider from "@public-pages/Home/Slider";
 	import { page } from "@inertiajs/inertia-svelte";
 
-	$: ({ errors, app } = $page.props);
 </script>
 
 <Layout>
+<!-- /***********************************************************************************
+ * THIS DOES NOT DISPLAY IN THE BROWSER, BUT SHOWS IT EXIST IN THE INSPECT ELEMENT *
+ ***********************************************************************************/ -->
+
+  <div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>
+
+<!-- /*******
+ * END *
+ *******/ -->
+
 	<!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
 	<div class="hero">
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -21,16 +43,16 @@
 									<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
 									<div class="rows">
 										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11">Your Business</p>
+											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Your Business</p>
 										</div>
 										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11">Get A Quote</p>
+											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Get A Quote</p>
 										</div>
 										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11"> We are equipped with an updated technical knowledge to serve our customers
+											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1"> We are equipped with an updated technical knowledge to serve our customers
 												<br> properly. Our method of application maintains the industry.
 											</p>
 										</div>
@@ -79,11 +101,12 @@
 	<!-- END REVOLUTION SLIDER -->
 	<!--site-main start-->
 	<div class="site-main">
+
 		<!-- zero-padding-section -->
 		<section class="ttm-row zero-padding-section position-relative z-1 clearfix">
 			<div class="container">
 				<div class="row no-gutters ttm-bgcolor-darkgrey featured-icon-box-style1-row">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4">
 						<!--  featured-icon-box -->
 						<div class="featured-icon-box left-icon style1 ttm-bgcolor-skincolor">
 							<div class="featured-icon">
@@ -108,7 +131,7 @@
 						</div>
 						<!--  featured-icon-box END -->
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4">
 						<!--  featured-icon-box -->
 						<div class="featured-icon-box left-icon style1 ttm-bgcolor-darkgrey">
 							<div class="featured-icon">
@@ -133,7 +156,7 @@
 						</div>
 						<!--  featured-icon-box END -->
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4">
 						<!--  featured-icon-box -->
 						<div class="featured-icon-box left-icon style1 ttm-bgcolor-skincolor">
 							<div class="featured-icon">
@@ -1239,7 +1262,7 @@
 								<div class="ttm-box-post-date">
 									<!-- ttm-box-post-date -->
 									<span class="ttm-entry-date">
-                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
 									</time>
 									</span>
 								</div>
@@ -1277,7 +1300,7 @@
 								<div class="ttm-box-post-date">
 									<!-- ttm-box-post-date -->
 									<span class="ttm-entry-date">
-                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
 									</time>
 									</span>
 								</div>
@@ -1315,7 +1338,7 @@
 								<div class="ttm-box-post-date">
 									<!-- ttm-box-post-date -->
 									<span class="ttm-entry-date">
-                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
 									</time>
 									</span>
 								</div>
@@ -1353,7 +1376,7 @@
 								<div class="ttm-box-post-date">
 									<!-- ttm-box-post-date -->
 									<span class="ttm-entry-date">
-                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
 									</time>
 									</span>
 								</div>
