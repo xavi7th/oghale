@@ -22,19 +22,12 @@
 
 	@routes('public')
 
-	<link rel="canonical" href="{{ $cononical ?? rescue(fn() => route('app.home'))}}" />
+	<link rel="canonical" href="{{ $canonical ?? rescue(fn() => route('app.home'))}}" />
 	<link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
 
 	{{-- stylesheet links --}}
-	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="/fonts/web-fonts-with-css/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="/css/line-awesome.min.css">
-  <link rel="stylesheet" href="/css/owl.carousel.css">
-<link rel="stylesheet" href="/css/owl.theme.default.css">
-	<link rel="stylesheet" href="/css/app.css">
 
 </head>
 
@@ -49,7 +42,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
-  <script src="/js/owl.carousel.min.js"></script>
 
 	<script src="{{ mix('js/public-vendor.js') }}" async></script>
 	<script src="{{ mix('js/manifest.js') }}" defer></script>

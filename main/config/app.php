@@ -13,7 +13,7 @@ return [
     |
     */
 
-  'name' => env('APP_NAME', 'Diamond Offshore Electricals'),
+  'name' => env('APP_NAME', 'Test Apps'),
   'phone' => env('APP_PHONE', '08022222222'),
   'email' => env('APP_EMAIL', 'support@diamondoffshoreelectricals.com'),
   'address' => env('APP_ADDRESS', null),

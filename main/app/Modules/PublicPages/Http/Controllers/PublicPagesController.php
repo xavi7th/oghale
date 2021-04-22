@@ -20,7 +20,7 @@ class PublicPagesController extends Controller
   public function index(Request $request)
   {
     return Inertia::render('PublicPages,Home', [])->withViewData([
-      'title' => 'Welcome to Diamond Offshore Electricals',
+      'title' => 'Welcome to Test App',
       'metaDesc' => 'Ek',
       'ogUrl' => route('app.home')
     ]);
