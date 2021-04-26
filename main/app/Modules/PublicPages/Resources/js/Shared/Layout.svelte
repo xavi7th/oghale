@@ -276,12 +276,12 @@
 			<div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
 			<div class="container">
 				<div class="row align-items-md-center">
-					<div class="col-lg-4 col-md-4 col-sm-12 order-md-2">
+					<div class="col-lg-4 col-md-6 col-sm-12 order-md-2">
 						<div class="footer-logo text-sm-center">
 							<img src="/img/theelects-receipt-logo-full.png" data-src="/img/theelects-receipt-logo-full.png" class="lazyload" alt="footer-logo">
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 order-md-1">
+					<div class="col-lg-4 col-md-3 col-sm-6 order-md-1">
 						<div class="text-left">
 							<!--  featured-icon-box -->
 							<div class="featured-icon-box left-icon icon-align-top">
@@ -302,7 +302,7 @@
 							<!--  featured-icon-box END -->
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
+					<div class="col-lg-4 col-md-3 col-sm-6 order-md-3">
 						<div class="text-sm-right">
 							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white" href="mailto:Info@example.com" title=""><i class="fa fa-envelope-o"></i>  Info@example.com</a>
 						</div>

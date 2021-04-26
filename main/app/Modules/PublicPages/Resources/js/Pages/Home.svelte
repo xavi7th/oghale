@@ -94,17 +94,17 @@
 								<h2 class="font1">Discuss Your Project</h2>
 								<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
 								<div class="rows">
-									<div class="checker">
+									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Your Business</p>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11">Your Business</p>
 									</div>
-									<div class="checker">
+									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Get A Quote</p>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11">Get A Quote</p>
 									</div>
-									<div class="checker">
+									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1"> We are equipped with an updated technical
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11"> We are equipped with an updated technical
 											knowledge to serve our customers
 											<br> properly. Our method of application maintains the industry.
 										</p>
@@ -125,17 +125,17 @@
 							<div class="box">
 								<h2 class="font1">Get Altech</h2>
 								<div class="rows">
-									<div class="checker">
-										<i class="fa fa-check col-lg-1"></i>
-										<p class="col-lg-11">Real-Time Monitoring</p>
+									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
+										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">Real-Time Monitoring</p>
 									</div>
-									<div class="checker">
-										<i class="fa fa-check col-lg-1"></i>
-										<p class="col-lg-11">Infrstracture</p>
+									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
+										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">Infrstracture</p>
 									</div>
-									<div class="checker">
-										<i class="fa fa-check col-lg-1"></i>
-										<p class="col-lg-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
+									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
+										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
 										</p>
 									</div>
 								</div>
