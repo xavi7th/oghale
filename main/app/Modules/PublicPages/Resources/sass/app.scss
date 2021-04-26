@@ -203,7 +203,7 @@ header .logo,
 
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a {
 	padding: 8px 20px;
-	background-color: red;
+	background-color: #f88d8d;
 	transform: translateY(-3px);
 }
 
@@ -301,6 +301,7 @@ form button,
 	top: 170px;
 	font-size: 3em;
 	width: 450px;
+
 }
 
 .hero .text-wrapper .wrap .box,
@@ -548,7 +549,7 @@ header form input,
 .site-main .history-section .short-info-wrap{
   margin-top: 60px;
   padding: 20px 0 30px;
-  background-color: green;
+  background-color: #f89c9c;
 }
 
 .site-main .team-section .featured-imagebox{
@@ -880,7 +881,11 @@ footer .footer-nav-menu li{
 
 @media (max-width: 600px){
   .hero{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
+  }
+
+  .hero .box{
+    height: 700px;
   }
 }

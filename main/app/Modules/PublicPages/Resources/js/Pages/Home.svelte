@@ -667,14 +667,14 @@
 											<div class="ttm-social-links-wrapper">
 												<ul class="social-icons list-inline">
 													<!-- social-icons -->
-													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 													</li>
 													<li class="social-googleplus">
-														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+														<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 													</li>
 												</ul>
 											</div>
@@ -699,14 +699,14 @@
 											<div class="ttm-social-links-wrapper">
 												<ul class="social-icons list-inline">
 													<!-- social-icons -->
-													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 													</li>
 													<li class="social-googleplus">
-														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+														<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 													</li>
 												</ul>
 											</div>
@@ -731,14 +731,14 @@
 											<div class="ttm-social-links-wrapper">
 												<ul class="social-icons list-inline">
 													<!-- social-icons -->
-													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 													</li>
 													<li class="social-googleplus">
-														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+														<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 													</li>
 												</ul>
 											</div>
@@ -763,14 +763,14 @@
 											<div class="ttm-social-links-wrapper">
 												<ul class="social-icons list-inline">
 													<!-- social-icons -->
-													<li class="social-facebook"><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+													<li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-twitter"><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+													<li class="social-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 													</li>
-													<li class="social-linkedin"><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+													<li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 													</li>
 													<li class="social-googleplus">
-														<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+														<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 													</li>
 												</ul>
 											</div>
