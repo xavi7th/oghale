@@ -27,7 +27,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
 
 	{{-- stylesheet links --}}
-	<link rel="stylesheet" href="/fonts/web-fonts-with-css/css/fontawesome-all.min.css">
 
 </head>
 

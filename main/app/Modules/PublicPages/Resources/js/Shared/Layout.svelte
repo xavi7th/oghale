@@ -9,155 +9,265 @@
 <div class="page">
 	<!--header start-->
 	<header id="masthead" class="header ttm-header-style-01">
-		<!-- ttm-topbar-wrapper -->
-		<div class="ttm-topbar-wrapper">
-			<div class="ttm-topbar-content">
-				<div class="container">
-        <div class="topbar-left text-right col-lg-5">
-          <ul class="top-contact text-left">
-            <li><i class="la la-map-marker"></i>24 Tech Roqad st Ny 10023</li>
-            <li><i class="la la-envelope-o"></i><a href="mailto:info@example.com.com">info@example.com</a>
-            </li>
-          </ul>
-        </div>
-
-				<div class="topbar-right text-right col-lg-7">
-					<ul class="top-contact col-lg-7">
-						<li><i class="fa fa-clock-o"></i>Office Hour: 08:00am - 6:00pm</li>
-					</ul>
-					<div class="ttm-social-links-wrapper list-inline col-lg-3">
-						<ul class="social-icons">
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i class="fab fa-facebook"></i></a>
+		<div class="top">
+			<div class="container">
+				<div class="left-side clearfix">
+					<span class="font3"><i class="fa fa-map-marker"></i> 24 Tech Roqad st Ny 10023</span>
+					<span class="font3"><i class="fa fa-envelope-o"></i> <a
+							href="mailto:info@example.com.com">info@example.com</a></span>
+					<span><i class="fa fa-clock-o"></i> Office Hour: 08:00am - 6:00pm</span>
+				</div>
+				<div class="right-side">
+					<div class="social">
+						<span><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i
+									class="fa fa-facebook"></i></a></span>
+						<span><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i
+									class="fa fa-twitter"></i></a></span>
+						<span><a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i
+									class="fa fa-flickr"></i></a></span>
+						<span><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i
+									class="fa fa-linkedin"></i></a></span>
+					</div>
+					<a href="#" class="quote font3">get a quote</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="btm-header">
+			<div class="container">
+				<div class="mb-relative">
+					<label for="side-menu" class="menu-bar">
+						<div class="hambugar"></div>
+						<div class="hambugar"></div>
+						<div class="hambugar"></div>
+					</label>
+					<div class="logo" id="logo">
+						<img src="/img/logo.png" alt="logo" style="display:block; width: 100%;">
+					</div>
+					<div class="nav-dsk">
+						<ul>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Home</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">Homepage 1</a></li>
+									<li><a href="#" class="font1">Homepage 2</a></li>
+									<li><a href="#" class="font1">Homepage 3</a></li>
+									<li class="inner-main-nav-dsk">
+										<a href="#" class="font1">Header Styles</a>
+										<ul class="drop-dsk-2">
+											<li><a href="#" class="font1">Header Style 01</a></li>
+											<li><a href="#" class="font1">Header Style 02</a></li>
+											<li><a href="#" class="font1">Header Style 03</a></li>
+										</ul>
+									</li>
+								</ul>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Pages</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">About Us 1</a></li>
+									<li><a href="#" class="font1">About Us 2</a></li>
+									<li><a href="#" class="font1">Services 1</a></li>
+									<li><a href="#" class="font1">Services 2</a></li>
+									<li><a href="#" class="font1">Our Expert</a></li>
+									<li><a href="#" class="font1">FAQs</a></li>
+									<li><a href="#" class="font1">Contact Us </a></li>
+									<li><a href="#" class="font1">Contact Us 2</a></li>
+									<li><a href="#" class="font1">Error Page</a></li>
+									<li><a href="#" class="font1">Elements</a></li>
+								</ul>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i class="fab fa-flickr"></i></a>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Services</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">IT Consultancy</a></li>
+									<li><a href="#" class="font1">Digital Services</a></li>
+									<li><a href="#" class="font1">Advisory Services</a></li>
+									<li><a href="#" class="font1">Data Structuring</a></li>
+									<li><a href="#" class="font1">Experience Design</a></li>
+									<li><a href="#" class="font1">Content Engineering</a></li>
+								</ul>
 							</li>
-							<li><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i class="fab fa-linkedin"></i></a>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Project</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">Project Style 1</a></li>
+									<li><a href="#" class="font1">Project Style 2</a></li>
+									<li class="inner-main-nav-dsk">
+										<a href="#" class="font1">Project Single</a>
+										<ul class="drop-dsk-2">
+											<li><a href="#" class="font1">Single Style 1</a></li>
+											<li><a href="#" class="font1">Single Style 2</a></li>
+											<li><a href="#" class="font1">Single Style 3</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Blog</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">Action</a></li>
+									<li><a href="#" class="font1">Blog Classic</a></li>
+									<li><a href="#" class="font1">Blog Grid View</a></li>
+									<li><a href="#" class="font1">Blog Top Image</a></li>
+									<li><a href="#" class="font1">Blog Left Image</a></li>
+									<li><a href="#" class="font1">Blog Single View</a></li>
+								</ul>
+							</li>
+							<li class="main-nav-dsk">
+								<a href="#" class="font1">Shop</a>
+								<ul class="drop-dsk">
+									<li><a href="#" class="font1">Action</a></li>
+									<li><a href="#" class="font1">Default Shop</a></li>
+									<li><a href="#" class="font1">Single Product Details</a></li>
+									<li><a href="#" class="font1">Cart</a></li>
+									<li><a href="#" class="font1">Checkout</a></li>
+								</ul>
 							</li>
 						</ul>
 					</div>
-          <div class="header-btn col-lg-2">
-            <a class="ttm-btn ttm-btn-size-md  ttm-btn-bgcolor-skincolor" href="#">Get A Quote</a>
-          </div>
+					<div class="search-wrap">
+						<form action="">
+							<input type="text" class="font3" placeholder="Search...">
+							<button><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+
+					<div class="mb-get-quotes">
+						<a href="#" class="font3">get a quote</a>
+					</div>
 				</div>
-        <div class="clearfix"></div>
-        </div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
-		<!-- ttm-topbar-wrapper end -->
-		<!-- ttm-header-wrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <!-- site-branding -->
-        <div class="site-branding col-lg-1 col-md-1 col-sm-1">
-          <a class="home-link" href="index.html" title="Altech" rel="home">
-              <img id="logo-img" class="img-center lazyload" src="/img/logo.png" data-src="/img/logo.png" alt="logo">
-          </a>
-        </div>
-        <!-- site-branding end -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Home <span class="sr-only">(current)</span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#" use:inertia>Homepage 1 <span class="sr-only">(current)</span></a>
-                <a class="dropdown-item" href="#" use:inertia>Homepage 2</a>
-                <a class="dropdown-item" href="#" use:inertia>Homepage 3</a>
-                <a class="dropdown-item dropdown-toggle" href="#" id="homebarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Header Styles</a>
-                <div class="dropdown-menu" aria-labelledby="homebarDropdown">
-                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 01</a>
-                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 02</a>
-                  <a class="dropdown-item" href="index.html" use:inertia>Header Style 03</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#" use:inertia>About Us 1</a>
-                <a class="dropdown-item" href="#" use:inertia>About Us 2</a>
-                <a class="dropdown-item" href="#" use:inertia>Services 1</a>
-                <a class="dropdown-item" href="#" use:inertia>Services 2</a>
-                <a class="dropdown-item" href="#" use:inertia>Our Expert</a>
-                <a class="dropdown-item" href="#" use:inertia>FAQs</a>
-                <a class="dropdown-item" href="#" use:inertia>Contact Us 1</a>
-                <a class="dropdown-item" href="#" use:inertia>Contact Us 2</a>
-                <a class="dropdown-item" href="#" use:inertia>Error Page</a>
-                <a class="dropdown-item" href="#" use:inertia>Elements</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="it-consultancy.html" use:inertia>IT Consultancy</a>
-                <a class="dropdown-item" href="digital-services.html" use:inertia>Digital Services</a>
-                <a class="dropdown-item" href="advisory-services.html" use:inertia>Advisory Services</a>
-                <a class="dropdown-item" href="data-structuring.html" use:inertia>Data Structuring</a>
-                <a class="dropdown-item" href="experience-design.html" use:inertia>Experience Design</a>
-                <a class="dropdown-item" href="content-engineering.html" use:inertia>Content Engineering</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Project
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="project-style-01.html">Project Style 1</a>
-                <a class="dropdown-item" href="project-style-02.html">Project Style 2</a>
-                <a class="dropdown-item dropdown-toggle" href="#" id="projectbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Single</a>
-                <div class="dropdown-menu" aria-labelledby="projectbarDropdown">
-                  <a class="dropdown-item" href="single-style-01.html">Single Style 1</a>
-                  <a class="dropdown-item" href="single-style-02.html">Single Style 2</a>
-                  <a class="dropdown-item" href="single-style-03.html">Single Style 3</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#" use:inertia>Action</a>
-                <a class="dropdown-item" href="blog.html" use:inertia>Blog Classic</a>
-                <a class="dropdown-item" href="blog-grid.html" use:inertia>Blog Grid View</a>
-                <a class="dropdown-item" href="blog-top-image.html" use:inertia>Blog Top Image</a>
-                <a class="dropdown-item" href="blog-left-image.html" use:inertia>Blog Left Image</a>
-                <a class="dropdown-item" href="single-blog.html" use:inertia>Blog Single View</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Shop
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="shop.html">Default Shop</a>
-                <a class="dropdown-item" href="product-details.html">Single Product Details</a>
-                <a class="dropdown-item" href="cart.html">Cart</a>
-                <a class="dropdown-item" href="checkout.html">Checkout</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-		<!--ttm-header-wrap end -->
+		<div class="clearfix"></div>
 	</header>
+
+	<div class="mobile-view">
+		<input type="checkbox" id="side-menu">
+		<div class="mb-nav-display">
+			<div class="mb-search-wrap">
+				<form action="">
+					<input type="text" class="font3" placeholder="Search...">
+					<button><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+
+			<ul>
+				<li>
+					<a href="#" class="font1">Home</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">Homepage 1</a></li>
+						<li><a href="#" class="font1">Homepage 2</a></li>
+						<li><a href="#" class="font1">Homepage 3</a></li>
+						<li class="mb-sec-drop">
+							<a href="#" class="font1">Header Styles</a>
+							<i class="fa fa-chevron-down"></i>
+							<ul class="mb-in-drop">
+								<li><a href="#" class="font1">Header Style 01</a></li>
+								<li><a href="#" class="font1">Header Style 02</a></li>
+								<li><a href="#" class="font1">Header Style 03</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="font1">Pages</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">About Us 1</a></li>
+						<li><a href="#" class="font1">About Us 2</a></li>
+						<li><a href="#" class="font1">Services 1</a></li>
+						<li><a href="#" class="font1">Services 2</a></li>
+						<li><a href="#" class="font1">Our Expert</a></li>
+						<li><a href="#" class="font1">FAQs</a></li>
+						<li><a href="#" class="font1">Contact Us </a></li>
+						<li><a href="#" class="font1">Contact Us 2</a></li>
+						<li><a href="#" class="font1">Error Page</a></li>
+						<li><a href="#" class="font1">Elements</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="font1">Services</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">IT Consultancy</a></li>
+						<li><a href="#" class="font1">Digital Services</a></li>
+						<li><a href="#" class="font1">Advisory Services</a></li>
+						<li><a href="#" class="font1">Data Structuring</a></li>
+						<li><a href="#" class="font1">Experience Design</a></li>
+						<li><a href="#" class="font1">Content Engineering</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="font1">Project</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">Project Style 1</a></li>
+						<li><a href="#" class="font1">Project Style 2</a></li>
+						<li class="mb-sec-drop">
+							<a href="#" class="font1">Project Single</a>
+							<i class="fa fa-chevron-down"></i>
+							<ul class="mb-in-drop">
+								<li><a href="#" class="font1">Single Style 1</a></li>
+								<li><a href="#" class="font1">Single Style 2</a></li>
+								<li><a href="#" class="font1">Single Style 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+				<li class="main-nav-dsk">
+					<a href="#" class="font1">Blog</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">Action</a></li>
+						<li><a href="#" class="font1">Blog Classic</a></li>
+						<li><a href="#" class="font1">Blog Grid View</a></li>
+						<li><a href="#" class="font1">Blog Top Image</a></li>
+						<li><a href="#" class="font1">Blog Left Image</a></li>
+						<li><a href="#" class="font1">Blog Single View</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="font1">Shop</a>
+					<i class="fa fa-chevron-down"></i>
+					<ul class="mb-drop">
+						<li><a href="#" class="font1">Action</a></li>
+						<li><a href="#" class="font1">Default Shop</a></li>
+						<li><a href="#" class="font1">Single Product Details</a></li>
+						<li><a href="#" class="font1">Cart</a></li>
+						<li><a href="#" class="font1">Checkout</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="bottom">
+				<div class="container">
+					<div class="mb-details clearfix">
+						<div class="social">
+							<span><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i
+										class="fa fa-facebook"></i></a></span>
+							<span><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i
+										class="fa fa-twitter"></i></a></span>
+							<span><a href="#" class=" tooltip-bottom" data-tooltip="Flickr"><i
+										class="fa fa-flickr"></i></a></span>
+							<span><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i
+										class="fa fa-linkedin"></i></a></span>
+						</div>
+						<div class="details-btn">
+							<span><i class="fa fa-map-marker"></i> 24 Tech Roqad st Ny 10023</span>
+							<span><i class="fa fa-envelope-o"></i> <a
+									href="mailto:info@example.com.com">info@example.com</a></span>
+							<span><i class="fa fa-clock-o"></i> Office Hour: 08:00am - 6:00pm</span>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!--header end-->
 	<slot />
 	<!--footer start-->
@@ -168,7 +278,7 @@
 				<div class="row align-items-md-center">
 					<div class="col-lg-4 col-md-4 col-sm-12 order-md-2">
 						<div class="footer-logo text-sm-center">
-							<img data-src="images/footer-logo.png" class="lazyload" alt="footer-logo">
+							<img src="/img/theelects-receipt-logo-full.png" data-src="/img/theelects-receipt-logo-full.png" class="lazyload" alt="footer-logo">
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 order-md-1">
@@ -194,7 +304,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
 						<div class="text-sm-right">
-							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white" href="mailto:Info@example.com" title=""> Info@example.com <i class="fa fa-envelope-o"></i></a>
+							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white" href="mailto:Info@example.com" title=""><i class="fa fa-envelope-o"></i>  Info@example.com</a>
 						</div>
 					</div>
 				</div>
@@ -241,21 +351,21 @@
 						<div class="widget link-widget clearfix">
 							<h3 class="widget-title">Quick Links</h3>
 							<ul id="menu-footer-services">
-								<li><a href="#">Make Appointment</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Make Appointment</a>
 								</li>
-								<li><a href="#">Customer Services</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Customer Services</a>
 								</li>
-								<li><a href="#">Department Services</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Department Services</a>
 								</li>
-								<li><a href="#">About Company</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> About Company</a>
 								</li>
-								<li><a href="#">Our Case Studies</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Our Case Studies</a>
 								</li>
-								<li><a href="#">Free Consultation</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Free Consultation</a>
 								</li>
-								<li><a href="#">Meet Our Experts</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Meet Our Experts</a>
 								</li>
-								<li><a href="#">Our Business Growth</a>
+								<li><a href="#"><i class="fa fa-chevron-right"></i> Our Business Growth</a>
 								</li>
 							</ul>
 						</div>
@@ -265,17 +375,22 @@
 							<h3 class="widget-title">Latest News</h3>
 							<ul class="widget-post ttm-recent-post-list">
 								<li>
-									<a href="single-blog.html"><img data-src="images/blog/01.jpg" class="lazyload" alt="post-img"></a>
-									<a href="single-blog.html">Define World Best IT Solution Technology</a>
-									<span class="post-date"><i class="fa fa-calendar"></i>May 01, 2019</span>
+									<a href="single-blog.html" class="img-right col-lg-2">
+                    <img src="/img/posts/post-1.jpg" data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img">
+                  </a>
+									<div class="txt-left col-lg-10">
+                    <a href="single-blog.html">Define World Best IT Solution Technology</a>
+									  <span class="post-date"><i class="fa fa-calendar"></i>May 01, 2019</span>
+                  </div>
+                  <div class="clearfix"></div>
 								</li>
 								<li>
-									<a href="single-blog.html"><img data-src="images/blog/02.jpg" class="lazyload" alt="post-img"></a>
+									<a href="single-blog.html"><img src="/img/posts/post-1.jpg"  data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img"></a>
 									<a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a>
 									<span class="post-date"><i class="fa fa-calendar"></i>May 03, 2019</span>
 								</li>
 								<li>
-									<a href="single-blog.html"><img data-src="images/blog/03.jpg" class="lazyload" alt="post-img"></a>
+									<a href="single-blog.html"><img src="/img/posts/post-1.jpg"  data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img"></a>
 									<a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a>
 									<span class="post-date"><i class="fa fa-calendar"></i>May 05, 2019</span>
 								</li>
@@ -289,9 +404,10 @@
 								Sign up today for hints, tips and the latest product news
 								<form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
 									<div class="mailchimp-inputbox clearfix" id="subscribe-content">
-										<i class="fa fa-envelope"></i>
-										<input type="email" name="email" placeholder="Email Address.." required="">
-										<input type="submit" value="">
+										<input type="email" style="width: 100%;" name="email" placeholder="Email Address.." required="">
+										<button type="submit" class="submit">
+                      <i class="fa fa-search"></i>
+                    </button>
 									</div>
 									<div id="subscribe-msg"></div>
 								</form>
@@ -311,6 +427,7 @@
 											<a class=" tooltip-top" target="_blank" href="" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 										</li>
 									</ul>
+                  <div class="clearfix"></div>
 								</div>
 							</div>
 						</div>
@@ -337,9 +454,7 @@
 									<li><a href="#">Privacy</a>
 									</li>
 								</ul>
-								<div class="float-md-right ml-20 res-767-ml-0">
-									<img data-src="images/footer-payment-img.png" class="lazyload" alt="payment-img">
-								</div>
+                <div class="clearfix"></div>
 							</div>
 						</div>
 					</div>

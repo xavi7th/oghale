@@ -2,17 +2,35 @@
 // Make sure the order they are loaded in is correct is correct
 
 @import './vendor/reset.css';
-@import './vendor/bootstrap.min.css';
 @import './vendor/animate.css';
-@import './vendor/line-awesome.min.css';
+@import './vendor/font-awesome.css';
 @import './vendor/owl.carousel.css';
 @import './vendor/owl.theme.default.css';
+@import './vendor/bootstrap.min.css';
 
 // font
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .font1 {
-	font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.font2 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.font3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font4 {
+    font-family: 'Anton', sans-serif;
 }
 
 // end font
@@ -22,14 +40,61 @@ div.phpdebugbar-widgets-exceptions li.phpdebugbar-widgets-list-item span.phpdebu
 	top: -7px !important;
 }
 
-header {
-	padding-bottom: 5px;
+header{
+	margin-top: 0;
+	padding-top: 0;
+	position: fixed;
+	background-color: #6B0504;
+  padding-bottom: 20px;
+	z-index: 9999999;
 }
 
-header {
-	// position: fixed;
-  position: relative;
-	z-index: 999999;
+header .top {
+    background-color: #FEF6C9;
+}
+
+header form,
+header .right-side {
+    float: right;
+}
+
+header .right-side span a {
+    margin-left: 10px;
+}
+
+header .right-side .quote {
+    margin-left: 40px;
+    width: 120px;
+    color: #fff;
+}
+
+form button,
+header .right-side .quote {
+    background-color: #E3B505;
+}
+
+header .right-side .quote,
+.nav-dsk li a {
+    text-decoration: none;
+}
+
+.nav-dsk .drop-dsk-2 {
+    right: -130px;
+}
+
+.nav-dsk li {
+    width: 130px;
+    background-color: #9d3433;
+}
+
+.nav-dsk li a {
+    color: #fff;
+}
+
+header form input,
+header form button,
+form button {
+    border: 0;
 }
 
 header,
@@ -48,27 +113,41 @@ header,
 	padding-bottom: 10px;
 }
 
+header form,
 .header .ttm-topbar-wrapper .ttm-topbar-content .top-contact,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn {
 	height: 20px;
+}
+
+header form,
+.header .ttm-topbar-wrapper .ttm-topbar-content .top-contact,
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper,
+.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn {
 	padding: 10px 0;
 }
 
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-left,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-left .top-contact li,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper li,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn,
-.ttm-header-wrap .site-branding,
-.ttm-header-wrap .site-navigation,
-.ttm-header-wrap .site-navigation .dropdown .main,
+header .right-side .social,
+header .right-side a,
+header .logo,
+header form input,
+header form button,
+header .left-side,
+.nav-dsk .main-nav-dsk,
 .hero .text-wrapper .wrap .box .checker i,
 .hero .text-wrapper .wrap .box .checker p {
 	float: left;
 }
 
+#side-menu:checked+.mb-nav-display,
+header .right-side .quote,
+.nav-dsk li,
+header form input,
+.nav-dsk li a,
+header form button,
+form button,
+.nav-dsk .inner-main-nav-dsk:hover .drop-dsk-2,
+.nav-dsk .main-nav-dsk:hover .drop-dsk,
 .header .ttm-topbar-wrapper .ttm-topbar-content .top-contact li,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact,
 .site-main .featured-icon-box img,
@@ -79,6 +158,9 @@ header,
 	display: block;
 }
 
+header .top,
+.nav-dsk li a,
+header form input,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-left .top-contact li,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .top-contact li,
 .ttm-header-wrap .site-navigation .ttm-header-icon button,
@@ -88,6 +170,8 @@ header,
 	font-size: .8em;
 }
 
+header .left-side span,
+header .logo,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-left .top-contact li {
 	margin-right: 30px;
 }
@@ -100,13 +184,6 @@ header,
 	margin-right: 10px;
 }
 
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper .social-icons,
-.header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a,
-.ttm-header-wrap .site-navigation .ttm-header-icon button {
-	float: right;
-}
-
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .ttm-social-links-wrapper .social-icons {
 	padding-right: 10px;
 }
@@ -115,6 +192,7 @@ header,
 	margin-right: 7px;
 }
 
+.nav-dsk li a,
 .header .ttm-topbar-wrapper .ttm-topbar-content .topbar-right .header-btn a,
 .site-main .featured-content .featured-desc,
 .site-main .history-section .ttm-history-box-wrapper .ttm-historybox-description,
@@ -138,10 +216,18 @@ header,
 	background-color: khaki;
 }
 
-.ttm-header-wrap .site-navigation .dropdown .main ul {
+header .btm-header .mb-get-quotes,
+header .menu-bar,
+#side-menu,
+.mb-nav-display,
+.nav-dsk .drop-dsk-2,
+.ttm-header-wrap .site-navigation .dropdown .main ul,
+.nav-dsk .main-nav-dsk .drop-dsk {
 	display: none;
 }
 
+header form button,
+form button,
 .ttm-header-wrap .site-branding img {
 	width: 40px;
 }
@@ -171,6 +257,7 @@ header,
   overflow: hidden;
 }
 
+.nav-dsk .inner-main-nav-dsk,
 .hero,
 .hero .text-wrapper .wrap,
 .site-main .aboutus-section .position-relative,
@@ -180,6 +267,11 @@ header,
 	position: relative;
 }
 
+.nav-dsk .inner-main-nav-dsk{
+  right: -130px;
+}
+
+.nav-dsk .drop-dsk-2,
 .hero .screen,
 .hero .text-wrapper .wrap .box,
 .site-main .aboutus-section .about-overlay-01,
@@ -189,9 +281,15 @@ header,
 	position: absolute;
 }
 
+.nav-dsk .drop-dsk-2
 .hero .screen,
+.nav-dsk .inner-main-nav-dsk,
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
 	top: 0;
+}
+
+.hero .screen,
+.site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
 	left: 0;
 }
 
@@ -232,7 +330,7 @@ header,
 }
 
 .hero .text-wrapper .wrap .box i {
-	color: green;
+	color: #E3B505;
 }
 
 .hero .text-wrapper .wrap .box p {
@@ -249,7 +347,7 @@ header,
 
 .hero .text-wrapper .wrap .box a {
 	padding: 8px 40px;
-	background-color: red;
+	background-color: #6B0504;
 }
 
 .site-main,
@@ -257,6 +355,7 @@ footer {
 	margin-top: 100px;
 }
 
+header form input,
 .site-main .featured-icon-box img,
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon {
 	width: 150px;
@@ -273,6 +372,8 @@ footer {
 	margin-top: 30px;
 }
 
+header .right-side .quote,
+.nav-dsk li a,
 .site-main .featured-content,
 .site-main .aboutus-section .section-title .title-header,
 .site-main .history-section .ttm-history-box-wrapper .ttm-historybox-title,
@@ -290,6 +391,7 @@ footer {
 	font-size: .9em;
 }
 
+.nav-dsk li a,
 .site-main .featured-content .featured-desc {
 	letter-spacing: 1px;
 }
@@ -333,25 +435,51 @@ footer {
 	margin-bottom: 20px;
 }
 
+header form input,
+header form button,
+form button,
+header .right-side .quote,
+.site-main .aboutus-section .about-overlay-01{
+	height: 40px;
+}
+
 .site-main .aboutus-section .about-overlay-01 {
 	bottom: 20px;
 	right: 20px;
-	height: 40px;
 	background-color: #000;
 	padding: 0 20px;
-	box-sizing: border-box;
-	color: #fff;
 	border-radius: 10px;
 	box-shadow: 0 0 20px #000;
 }
 
-.site-main .aboutus-section .about-overlay-01 .info-wrap p {
-	line-height: 40px;
+header form input,
+.site-main .aboutus-section .about-overlay-01 {
+	box-sizing: border-box;
 }
 
+.site-main .aboutus-section .about-overlay-01{
+	color: #fff;
+}
+
+header .logo {
+    width: 50px;
+}
+
+header .logo,
+.nav-dsk li,
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div,
 .site-main .first-row-title-section .ttm-play-icon-animation a{
-  height: 50px;
+    height: 50px;
+}
+
+.nav-dsk .main-nav-dsk ul {
+    padding-left: 0;
+}
+
+
+header .top,
+.site-main .aboutus-section .about-overlay-01 .info-wrap p {
+	line-height: 40px;
 }
 
 .site-main .aboutus-section .about-overlay-01 .info-wrap .effect-div {
@@ -409,10 +537,15 @@ footer {
 }
 
 .site-main .history-section .short-info a {
-	padding: 10px 20px;
 	width: 200px;
   margin: 10px auto 0;
 	background-color: khaki;
+}
+
+form input,
+header form input,
+.site-main .history-section .short-info a {
+	padding: 10px 20px;
 }
 
 .site-main .history-section .short-info-wrap{
@@ -453,9 +586,13 @@ footer {
 
 .site-main .first-row-title-section .ttm-play-icon-animation a{
   width: 90px;
-  line-height: 50px;
   margin: 0 auto 20px;
   background-color: #000;
+}
+
+.nav-dsk li a,
+.site-main .first-row-title-section .ttm-play-icon-animation a{
+  line-height: 50px;
 }
 
 .site-main .bottomzero-padding-section{
@@ -463,136 +600,277 @@ footer {
   background-color: aqua;
 }
 
+ul{
+  padding-left: 0;
+}
+
+.mb-nav-display {
+  height: 200px;
+	overflow: auto;
+}
+
 footer{
-  background-color: blue;
+  background-color: #E3B505;
+  color: #e4e4e4;
 }
 
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Show 4th slide on md if col-md-4*/
-    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -33.3333%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
+footer .first-footer{
+  font-size: .8em;
+  height: 40px;
+  background-color: #ff0000;
+  line-height: 40px;
 }
-@media (min-width: 576px) and (max-width: 768px) {
-    /* Show 3rd slide on sm if col-sm-6*/
-    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -50%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-}
-@media (min-width: 576px) {
 
-    .carousel-item {
-        margin-right: 0;
+footer .second-footer{
+  padding: 20px 0;
+  background-color: #6B0504;
+}
+
+footer a{
+  color: #fff;
+  font-size: .8em;
+}
+
+footer .widget a{
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+footer .widget-post{
+  background-color: #FEF6C9;
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer .widget-post .img-right{
+  display: block;
+  float: left;
+}
+
+footer .widget-post .img-right img{
+  width: 100%;
+  height: 50px;
+}
+
+footer .widget-post .txt-left{
+  float: left;
+  padding: 10px 0;
+}
+
+footer .widget-post .txt-left a,
+footer .widget-post .txt-left span{
+  font-size: .6em;
+  display: block;
+}
+
+footer .newsletter-form{
+  position: relative;
+}
+
+footer .newsletter-form i{
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+}
+
+footer .newsletter-form .submit{
+  position: absolute;
+  top: 0;
+  display: block;
+  right: 0;
+}
+
+footer .social-icons a{
+  float: left;
+  margin-right: 10px;
+}
+
+footer .footer-nav-menu li{
+  float: left;
+  margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    header .nav-dsk,
+	header .top,
+    header .search-wrap,
+	.mb-nav-display,
+	.mb-nav-display .mb-drop,
+	.mb-nav-display .mb-drop .mb-sec-drop .mb-in-drop {
+        display: none;
     }
-    /* show 2 items */
-    .carousel-inner .active + .carousel-item {
-        display: block;
+
+    header .mb-relative {
+        height: 50px;
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
-        transition: none;
-    }
-    .carousel-inner .carousel-item-next {
+
+	header .mb-relative,
+	.mb-nav-display li,
+	.mb-nav-display li a,
+	.mb-nav-display .mb-search-wrap {
+        width: 100%;
+	}
+
+	header .mb-relative,
+	.mb-nav-display li,
+	.mb-nav-display .mb-search-wrap {
         position: relative;
-        transform: translate3d(0, 0, 0);
+	}
+
+    header .logo {
+        left: 50%;
+        transform: translateX(-50%);
     }
-    /* left or forward direction */
-    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    /* farthest right hidden item must be also positioned for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
+
+	header .logo,
+	header .btm-header .mb-get-quotes,
+	header .menu-bar,
+	.mb-nav-display li i,
+	.mb-nav-display .mb-search-wrap form input,
+	.mb-nav-display .mb-search-wrap form button {
         position: absolute;
-        top: 0;
+	}
+
+	header .btm-header .mb-get-quotes,
+	.mb-nav-display li i {
+        right: 0;
+	}
+
+    header .btm-header .mb-get-quotes {
+        width: 120px;
+        height: 35px;
+    }
+
+	header .btm-header .mb-get-quotes,
+	header .menu-bar {
+        transform: translateY(-50%);
+	}
+
+	header .btm-header .mb-get-quotes,
+	header .menu-bar {
+        top: 50%;
+	}
+
+	header .btm-header .mb-get-quotes,
+	header .btm-header .mb-get-quotes a,
+	.mb-nav-display li,
+	.mb-nav-display li a,
+	.mb-nav-display li i,
+	.mb-nav-display li:hover .mb-drop,
+	.mb-nav-display .mb-drop .mb-sec-drop:hover .mb-in-drop,
+	.mb-nav-display .mb-search-wrap form input,
+	header .menu-bar,
+	.mb-nav-display .bottom .details-btn span{
+        display: block;
+
+	}
+
+    header .btm-header .mb-get-quotes a {
+        font-size: .8em;
+        line-height: 35px;
+        background-color: #ffffff4a;
+        color: #fff;
+    }
+
+	header .btm-header .mb-get-quotes a,
+	.mb-nav-display li i{
+        text-align: center;
+
+	}
+
+	header .btm-header .mb-get-quotes a,
+	.mb-nav-display li a {
+        text-decoration: none;
+	}
+
+    header .menu-bar {
         left: 0;
-        z-index: -1;
-        display: block;
-        visibility: visible;
+        cursor: pointer;
     }
-    /* right or prev direction */
-    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
+
+	header .menu-bar {
+        height: 50px;
+	}
+
+	header .menu-bar,
+	.mb-nav-display li i {
+        width: 50px;
+	}
+
+    header .menu-bar .hambugar {
+        height: 6px;
+        margin-top: 7px;
+        background-color: #fff;
+
     }
-}
-/* MD */
-@media (min-width: 768px) {
-    /* show 3rd of 3 item slide */
-    .carousel-inner .active + .carousel-item + .carousel-item {
-        display: block;
+
+	header .menu-bar .hambugar,
+	.mb-nav-display .mb-search-wrap form input {
+        width: 80%;
+	}
+
+
+    .mb-nav-display {
+      width: 300px;
+      background-color: #6B0504;
+      position: fixed;
+      top: 50px;
+		  z-index: 9999999;
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
-        transition: none;
+
+    .mb-nav-display ul {
+        padding: 0%;
     }
-    .carousel-inner .carousel-item-next {
-        position: relative;
-        transform: translate3d(0, 0, 0);
+
+    .mb-nav-display li {
+        background-color: #9d3433;
     }
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
+
+    .mb-nav-display li a {
+        padding-left: 20px;
+        color: #fff;
     }
-    /* right or prev direction */
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
-}
-/* LG */
-@media (min-width: 991px) {
-    /* show 4th item */
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-        transition: none;
-    }
-    /* Show 5th slide on lg if col-lg-3 */
-    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
+
+	.mb-nav-display li a,
+	.mb-nav-display li i {
+        line-height: 50px;
+	}
+
+    .mb-nav-display li i {
         top: 0;
-        right: -25%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
     }
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
+
+    .mb-nav-display .mb-search-wrap {
+        height: 60px;
+        padding: 0;
     }
-    /* right or prev direction //t - previous slide direction last item animation fix */
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
+
+    .mb-nav-display .mb-search-wrap form input {
+        left: 10px;
     }
+
+	.mb-nav-display .mb-search-wrap form input,
+	.mb-nav-display .mb-search-wrap form button{
+        top: 10px;
+
+	}
+
+    .mb-nav-display .mb-search-wrap form button {
+        right: 10px;
+    }
+
+    .mb-nav-display .bottom {
+        margin-top: 20px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px){
+  .hero{
+    height: 70vh;
+    width: 100%;
+  }
 }

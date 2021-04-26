@@ -2,114 +2,149 @@
 	import Layout from "@public-shared/Layout.svelte";
 	// import Slider from "@public-pages/Home/Slider";
 	import { page } from "@inertiajs/inertia-svelte";
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-  // here we will call onMountec to make sure the code is mounted to the DOM first before ours fire
-  // Note we are using jQuery() instead of $(). This is because $ is a special symbol in Svelte. We could run it in noCoflict mode if we really must use $
+	// here we will call onMountec to make sure the code is mounted to the DOM first before ours fire
+	// Note we are using jQuery() instead of $(). This is because $ is a special symbol in Svelte. We could run it in noCoflict mode if we really must use $
 
-  onMount(() =>{
-    let owl = jQuery( '.owl-carousel' );
-    owl.owlCarousel({
-      items: 4,
+	onMount(() => {
+		let owl = jQuery('.single-owl-carousel');
+		owl.owlCarousel({
+			// animateOut: 'fadeOut',
+      items:1,
+      dots: false,
       loop: true,
-      margin: 10,
+      margin:30,
+      autoplay:true,
+      autoplayTimeout:1000,
+      smartSpeed:450
+		});
+
+    let mlt_owl = jQuery('.multiple-owl-carousel');
+		mlt_owl.owlCarousel({
+			// animateOut: 'fadeOut',
+      loop: true,
+      margin:30,
+      smartSpeed:450,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+      }
+		});
+
+    let mlt_auto_owl = jQuery('.multiple-auto-owl-carousel');
+		mlt_auto_owl.owlCarousel({
+			// animateOut: 'fadeOut',
+      loop: true,
+      margin:30,
       autoplay: true,
-      autoplayTimeout: 1000,
-      autoplayHoverPause: true
-    });
+      smartSpeed:450,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+      }
+		});
 
-  });
-
+    let tri_auto_owl = jQuery('.triple-owl-carousel');
+		tri_auto_owl.owlCarousel({
+			// animateOut: 'fadeOut',
+      loop: true,
+      margin:30,
+      autoplay: true,
+      smartSpeed:450,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+      }
+		});
+	});
 </script>
 
 <Layout>
-<!-- /***********************************************************************************
- * THIS DOES NOT DISPLAY IN THE BROWSER, BUT SHOWS IT EXIST IN THE INSPECT ELEMENT *
- ***********************************************************************************/ -->
-
-  <div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
-</div>
-
-<!-- /*******
- * END *
- *******/ -->
-
-	<!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
+	<!-- EVOLUTION SLIDER 6.0.1 -->
 	<div class="hero">
-		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="box">
-						<div class="text-wrapper">
-							<div class="screen"></div>
-							<div class="container wrap">
-								<div class="box">
-									<h2 class="font1">Discuss Your Project</h2>
-									<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
-									<div class="rows">
-										<div class="checker">
-											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Your Business</p>
-										</div>
-										<div class="checker">
-											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Get A Quote</p>
-										</div>
-										<div class="checker">
-											<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-											<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1"> We are equipped with an updated technical knowledge to serve our customers
-												<br> properly. Our method of application maintains the industry.
-											</p>
-										</div>
+		<div class="owl-carousel single-owl-carousel owl-theme">
+			<div class="item">
+				<div class="box">
+					<div class="text-wrapper">
+						<div class="screen"></div>
+						<div class="container wrap">
+							<div class="box">
+								<h2 class="font1">Discuss Your Project</h2>
+								<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
+								<div class="rows">
+									<div class="checker">
+										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Your Business</p>
 									</div>
-									<div class="clearfix"></div>
+									<div class="checker">
+										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Get A Quote</p>
+									</div>
+									<div class="checker">
+										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1"> We are equipped with an updated technical
+											knowledge to serve our customers
+											<br> properly. Our method of application maintains the industry.
+										</p>
+									</div>
 								</div>
+								<div class="clearfix"></div>
 							</div>
 						</div>
-						<img class="d-block w-100" src="/img/posts/post-8.jpg" alt="First slide">
 					</div>
+					<img class="d-block w-100" src="/img/posts/post-8.jpg" alt="First slide">
 				</div>
-				<div class="carousel-item">
-					<div class="box">
-						<div class="text-wrapper">
-							<div class="screen"></div>
-							<div class="container wrap">
-								<div class="box">
-									<h2 class="font1">Get Altech</h2>
-									<div class="rows">
-										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11">Real-Time Monitoring</p>
-										</div>
-										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11">Infrstracture</p>
-										</div>
-										<div class="checker">
-											<i class="fas fa-check col-lg-1"></i>
-											<p class="col-lg-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
-											</p>
-										</div>
+			</div>
+			<div class="item">
+				<div class="box">
+					<div class="text-wrapper">
+						<div class="screen"></div>
+						<div class="container wrap">
+							<div class="box">
+								<h2 class="font1">Get Altech</h2>
+								<div class="rows">
+									<div class="checker">
+										<i class="fas fa-check col-lg-1"></i>
+										<p class="col-lg-11">Real-Time Monitoring</p>
 									</div>
-									<div class="clearfix"></div>
-									<a href="#" class="slide-btn">Read More</a>
+									<div class="checker">
+										<i class="fas fa-check col-lg-1"></i>
+										<p class="col-lg-11">Infrstracture</p>
+									</div>
+									<div class="checker">
+										<i class="fas fa-check col-lg-1"></i>
+										<p class="col-lg-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
+										</p>
+									</div>
 								</div>
+								<div class="clearfix"></div>
+								<a href="#" class="slide-btn">Read More</a>
 							</div>
 						</div>
-						<img class="d-block w-100" src="/img/posts/post-1.jpg" alt="First slide">
 					</div>
+					<img class="d-block w-100" src="/img/posts/post-1.jpg" alt="First slide">
 				</div>
 			</div>
 		</div>
@@ -311,146 +346,144 @@
 					<div class="history-slide">
 						<div class="top-content">
 							<div class="container-fluid">
-								<div class="carousel carousel-example slide" data-ride="carousel">
-									<div class="carousel-inner row w-100 mx-auto" role="listbox">
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-											<div class="ttm-history-box-wrapper">
-												<!-- ttm-history-box-wrapper  -->
-												<div class="ttm-history-box-icon-wrapper">
-													<!-- ttm-history-box-icon-wrapper  -->
-													<!--  featured-icon-box -->
-													<div class="featured-icon-box">
-														<div class="featured-icon">
-															<!--  featured-icon -->
-															<div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
-																<i class="flaticon flaticon-business-and-finance"></i>
-																<img src="/img/flaticons/handshake.svg" alt="business icon">
-																<!--  ttm-icon -->
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ttm-history-box-border"></div>
-												<!-- ttm-history-box-border  -->
-												<div class="ttm-history-box-details">
-													<div class="ttm-historybox-title">
-														<h5>IT Consultancy</h5>
-													</div>
-													<!-- historybox-title  -->
-													<div class="ttm-historybox-description">
-														<!-- description  -->
-														Expertise in IT consultancy for the IT companies, for their different working areas Web-app
-														related.
-													</div>
-													<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-												</div>
-											</div>
-										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-											<!-- ttm-history-box-wrapper  END-->
-											<div class="ttm-history-box-wrapper">
-												<!-- ttm-history-box-wrapper  -->
-												<div class="ttm-history-box-icon-wrapper">
-													<!-- ttm-history-box-icon-wrapper  -->
-													<!--  featured-icon-box -->
-													<div class="featured-icon-box">
-														<div class="featured-icon">
-															<!--  featured-icon -->
-															<div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
-																<i class="flaticon flaticon-computer"></i>
-																<img src="/img/flaticons/laptop.svg" alt="laptop icon">
-																<!--  ttm-icon -->
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ttm-history-box-border"></div>
-												<!-- ttm-history-box-border  -->
-												<div class="ttm-history-box-details">
-													<div class="ttm-historybox-title">
-														<h5>IT Management</h5>
-													</div>
-													<!-- historybox-title  -->
-													<div class="ttm-historybox-description">
-														<!-- description  -->
-														We provide all kind of IT management services of in the according to on their organization
-														prioritie.
-													</div>
-													<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-												</div>
-											</div>
-											<!-- ttm-history-box-wrapper  END-->
-										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-											<div class="ttm-history-box-wrapper">
-												<!-- ttm-history-box-wrapper  -->
-												<div class="ttm-history-box-icon-wrapper">
-													<!-- ttm-history-box-icon-wrapper  -->
-													<!--  featured-icon-box -->
-													<div class="featured-icon-box">
-														<div class="featured-icon">
-															<!--  featured-icon -->
-															<div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
-																<i class="flaticon flaticon-data"></i>
-																<img src="/img/flaticons/data.svg" alt="data icon">
-																<!--  ttm-icon -->
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ttm-history-box-border"></div>
-												<!-- ttm-history-box-border  -->
-												<div class="ttm-history-box-details">
-													<div class="ttm-historybox-title">
-														<h5>Product Design</h5>
-													</div>
-													<!-- historybox-title  -->
-													<div class="ttm-historybox-description">
-														<!-- description  -->
-														Our firm is expert to create an efficient for user interface that makes design user
-														interaction
-														lively.
-													</div>
-													<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-												</div>
-											</div>
-											<!-- ttm-history-box-wrapper  END-->
-										</div>
-										<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-											<div class="ttm-history-box-wrapper">
-												<!-- ttm-history-box-wrapper  -->
-												<div class="ttm-history-box-icon-wrapper">
-													<!-- ttm-history-box-icon-wrapper  -->
-													<!--  featured-icon-box -->
-													<div class="featured-icon-box">
-														<div class="featured-icon">
-															<!--  featured-icon -->
-															<div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
-																<i class="flaticon flaticon-global-1"></i>
-																<img src="/img/flaticons/global.svg" alt="global icon">
-																<!--  ttm-icon -->
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="ttm-history-box-border"></div>
-												<!-- ttm-history-box-border  -->
-												<div class="ttm-history-box-details">
-													<div class="ttm-historybox-title">
-														<h5>Cloud Services</h5>
-													</div>
-													<!-- historybox-title  -->
-													<div class="ttm-historybox-description">
-														<!-- description  -->
-														We develop, migrate and work on web applications to ensure that they run on capably on
-														clouds.
-													</div>
-													<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-												</div>
-											</div>
-											<!-- ttm-history-box-wrapper  END-->
-										</div>
-									</div>
+								<div class="owl-carousel multiple-owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="ttm-history-box-wrapper">
+                      <!-- ttm-history-box-wrapper  -->
+                      <div class="ttm-history-box-icon-wrapper">
+                        <!-- ttm-history-box-icon-wrapper  -->
+                        <!--  featured-icon-box -->
+                        <div class="featured-icon-box">
+                          <div class="featured-icon">
+                            <!--  featured-icon -->
+                            <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
+                              <i class="flaticon flaticon-business-and-finance"></i>
+                              <img src="/img/flaticons/handshake.svg" alt="business icon">
+                              <!--  ttm-icon -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ttm-history-box-border"></div>
+                      <!-- ttm-history-box-border  -->
+                      <div class="ttm-history-box-details">
+                        <div class="ttm-historybox-title">
+                          <h5>IT Consultancy</h5>
+                        </div>
+                        <!-- historybox-title  -->
+                        <div class="ttm-historybox-description">
+                          <!-- description  -->
+                          Expertise in IT consultancy for the IT companies, for their different working areas Web-app
+                          related.
+                        </div>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <!-- ttm-history-box-wrapper  END-->
+                    <div class="ttm-history-box-wrapper">
+                      <!-- ttm-history-box-wrapper  -->
+                      <div class="ttm-history-box-icon-wrapper">
+                        <!-- ttm-history-box-icon-wrapper  -->
+                        <!--  featured-icon-box -->
+                        <div class="featured-icon-box">
+                          <div class="featured-icon">
+                            <!--  featured-icon -->
+                            <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
+                              <i class="flaticon flaticon-computer"></i>
+                              <img src="/img/flaticons/laptop.svg" alt="laptop icon">
+                              <!--  ttm-icon -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ttm-history-box-border"></div>
+                      <!-- ttm-history-box-border  -->
+                      <div class="ttm-history-box-details">
+                        <div class="ttm-historybox-title">
+                          <h5>IT Management</h5>
+                        </div>
+                        <!-- historybox-title  -->
+                        <div class="ttm-historybox-description">
+                          <!-- description  -->
+                          We provide all kind of IT management services of in the according to on their organization
+                          prioritie.
+                        </div>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                      </div>
+                    </div>
+                    <!-- ttm-history-box-wrapper  END-->
+                  </div>
+                  <div class="item">
+                    <div class="ttm-history-box-wrapper">
+                      <!-- ttm-history-box-wrapper  -->
+                      <div class="ttm-history-box-icon-wrapper">
+                        <!-- ttm-history-box-icon-wrapper  -->
+                        <!--  featured-icon-box -->
+                        <div class="featured-icon-box">
+                          <div class="featured-icon">
+                            <!--  featured-icon -->
+                            <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
+                              <i class="flaticon flaticon-data"></i>
+                              <img src="/img/flaticons/data.svg" alt="data icon">
+                              <!--  ttm-icon -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ttm-history-box-border"></div>
+                      <!-- ttm-history-box-border  -->
+                      <div class="ttm-history-box-details">
+                        <div class="ttm-historybox-title">
+                          <h5>Product Design</h5>
+                        </div>
+                        <!-- historybox-title  -->
+                        <div class="ttm-historybox-description">
+                          <!-- description  -->
+                          Our firm is expert to create an efficient for user interface that makes design user
+                          interaction
+                          lively.
+                        </div>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                      </div>
+                    </div>
+                    <!-- ttm-history-box-wrapper  END-->
+                  </div>
+                  <div class="item">
+                    <div class="ttm-history-box-wrapper">
+                      <!-- ttm-history-box-wrapper  -->
+                      <div class="ttm-history-box-icon-wrapper">
+                        <!-- ttm-history-box-icon-wrapper  -->
+                        <!--  featured-icon-box -->
+                        <div class="featured-icon-box">
+                          <div class="featured-icon">
+                            <!--  featured-icon -->
+                            <div class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-md">
+                              <i class="flaticon flaticon-global-1"></i>
+                              <img src="/img/flaticons/global.svg" alt="global icon">
+                              <!--  ttm-icon -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ttm-history-box-border"></div>
+                      <!-- ttm-history-box-border  -->
+                      <div class="ttm-history-box-details">
+                        <div class="ttm-historybox-title">
+                          <h5>Cloud Services</h5>
+                        </div>
+                        <!-- historybox-title  -->
+                        <div class="ttm-historybox-description">
+                          <!-- description  -->
+                          We develop, migrate and work on web applications to ensure that they run on capably on
+                          clouds.
+                        </div>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                      </div>
+                    </div>
+                    <!-- ttm-history-box-wrapper  END-->
+                  </div>
 								</div>
 							</div>
 						</div>
@@ -624,9 +657,8 @@
 				<!-- row -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner row w-100 mx-auto" role="listbox">
-								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+						<div class="owl-carousel multiple-owl-carousel owl-theme">
+								<div class="item">
 									<!-- featured-imagebox-team -->
 									<div class="featured-imagebox featured-imagebox-team style1">
 										<div class="featured-thumbnail">
@@ -658,7 +690,7 @@
 									</div>
 									<!-- featured-imagebox-team end-->
 								</div>
-								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+								<div class="item">
 									<!-- featured-imagebox-team -->
 									<div class="featured-imagebox featured-imagebox-team style1">
 										<div class="featured-thumbnail">
@@ -690,7 +722,7 @@
 									</div>
 									<!-- featured-imagebox-team end-->
 								</div>
-								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+								<div class="item">
 									<!-- featured-imagebox-team -->
 									<div class="featured-imagebox featured-imagebox-team style1">
 										<div class="featured-thumbnail">
@@ -722,7 +754,7 @@
 									</div>
 									<!-- featured-imagebox-team end-->
 								</div>
-								<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+								<div class="item">
 									<!-- featured-imagebox-team -->
 									<div class="featured-imagebox featured-imagebox-team style1">
 										<div class="featured-thumbnail">
@@ -754,7 +786,6 @@
 									</div>
 									<!-- featured-imagebox-team end-->
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -853,26 +884,8 @@
 								<div class="ttm-bg-layer-inner"></div>
 							</div>
 							<div class="layer-content">
-								<div class="testimonial-slide style1 owl-carousel" data-item="1" data-nav="false" data-dots="true"
+								<div class="testimonial-slide style1 owl-carousel single-owl-carousel owl-theml" data-item="1" data-nav="false" data-dots="true"
 									data-auto="false">
-									<div class="row">
-										<div class="container-fluid">
-
-											<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-												<div class="carousel-inner">
-													<div class="carousel-item active">
-														<img class="d-block w-100" src="..." alt="First slide">
-													</div>
-													<div class="carousel-item">
-														<img class="d-block w-100" src="..." alt="Second slide">
-													</div>
-													<div class="carousel-item">
-														<img class="d-block w-100" src="..." alt="Third slide">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
 									<!-- testimonials -->
 									<div class="testimonials text-center">
 										<div class="testimonial-content">
@@ -880,7 +893,7 @@
 											<div class="testimonial-avatar">
 												<div class="testimonial-img">
 													<!-- testimonials-img -->
-													<img class="img-center lazyload" data-src="images/testimonial/01.jpg" alt="testimonial-img">
+													<img class="img-center lazyload" src="/img/avatars/avatar-1.jpg" data-src="/img/avatars/avatar-1.jpg" alt="testimonial-img">
 												</div>
 											</div>
 											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
@@ -907,7 +920,7 @@
 											<div class="testimonial-avatar">
 												<div class="testimonial-img">
 													<!-- testimonials-img -->
-													<img class="img-center lazyload" data-src="images/testimonial/02.jpg" alt="testimonial-img">
+													<img class="img-center lazyload" src="/img/avatars/avatar-2.jpg" data-src="/img/avatars/avatar-2.jpg" alt="testimonial-img">
 												</div>
 											</div>
 											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
@@ -934,7 +947,7 @@
 											<div class="testimonial-avatar">
 												<div class="testimonial-img">
 													<!-- testimonials-img -->
-													<img class="img-center lazyload" data-src="images/testimonial/03.jpg" alt="testimonial-img">
+													<img class="img-center lazyload" src="/img/avatars/avatar-3.jpg" data-src="/img/avatars/avatar-3.jpg" alt="testimonial-img">
 												</div>
 											</div>
 											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
@@ -985,7 +998,7 @@
 							<div class="row">
 								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
 									<div class="ttm-box-image">
-										<img class="img-fluid lazyload" data-src="images/step-one.jpg" alt="step-one" title="step-one">
+										<img class="img-fluid lazyload" src="/img/categories/category-1.jpg" data-src="/img/categories/category-1.jpg" alt="step-one" title="step-one">
 										<div class="process-num">
 											<span class="number">01</span>
 										</div>
@@ -1000,7 +1013,7 @@
 								</div>
 								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
 									<div class="ttm-box-image">
-										<img class="img-fluid lazyload" data-src="images/step-two.jpg" alt="step-two" title="step-two">
+										<img class="img-fluid lazyload" src="/img/categories/category-2.jpg" data-src="/img/categories/category-2.jpg"alt="step-two" title="step-two">
 										<div class="process-num">
 											<span class="number">02</span>
 										</div>
@@ -1015,7 +1028,7 @@
 								</div>
 								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
 									<div class="ttm-box-image">
-										<img class="img-fluid lazyload" data-src="images/step-three.jpg" alt="step-three" title="step-three">
+										<img class="img-fluid lazyload" src="/img/categories/category-3.jpg" data-src="/img/categories/category-3.jpg" alt="step-three" title="step-three">
 										<div class="process-num">
 											<span class="number">03</span>
 										</div>
@@ -1030,7 +1043,7 @@
 								</div>
 								<div class="ttm-processbox text-center col-lg-3 col-md-3 col-sm-12">
 									<div class="ttm-box-image">
-										<img class="img-fluid lazyload" data-src="images/step-four.jpg" alt="step-four" title="step-four">
+										<img class="img-fluid lazyload" src="/img/categories/category-4.jpg" data-src="/img/categories/category-4.jpg" alt="step-four" title="step-four">
 										<div class="process-num">
 											<span class="number">04</span>
 										</div>
@@ -1052,7 +1065,7 @@
 		</section>
 		<!-- process-section end -->
 		<!-- portfolio-text-section -->
-		<section class="ttm-row bottomzero-padding-section ttm-bgcolor-skincolor ttm-bg ttm-bgimage-yes bg-img5 clearfix">
+		<section class="ttm-row bottom zero-padding-section ttm-bgcolor-skincolor ttm-bg ttm-bgimage-yes bg-img5 clearfix">
 			<div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
 			<div class="container">
 				<div class="row">
@@ -1081,7 +1094,7 @@
 		<!-- portfolio-text-section end -->
 		<!-- portfolio-section -->
 		<section class="ttm-row zero-padding-section clearfix">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row portfolio-slide owl-carousel ttm-boxes-spacing-10px" data-item="5" data-nav="false"
 					data-dots="false" data-auto="false">
 					<div class="col-lg ttm-box-col-wrapper">
@@ -1089,7 +1102,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/01.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-7.jpg" data-src="/img/posts/post-7.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1115,7 +1128,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/02.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-8.jpg" data-src="/img/posts/post-8.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1141,7 +1154,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/03.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-.jpg" data-src="/img/posts/post-7.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1167,7 +1180,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/04.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-9.jpg" data-src="/img/posts/post-9.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1193,7 +1206,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/05.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-10.jpg" data-src="/img/posts/post-10.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1219,7 +1232,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" data-src="images/portfolio/06.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-1.jpg" data-src="/img/posts/post-1.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1262,162 +1275,168 @@
 				<!-- row -->
 				<div class="row">
 					<!-- blog-slide -->
-					<div class="blog-slide owl-carousel owl-theme owl-loaded " data-item="3" data-nav="false" data-dots="false"
-						data-auto="false">
-						<!-- featured-imagebox-blog -->
-						<div class="featured-imagebox featured-imagebox-blog">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/blog/05.jpg" alt="">
-								<div class="ttm-blog-overlay-iconbox">
-									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
-								</div>
-								<div class="ttm-box-view-overlay"></div>
-							</div>
-							<div class="featured-content">
-								<!-- featured-content -->
-								<div class="ttm-box-post-date">
-									<!-- ttm-box-post-date -->
-									<span class="ttm-entry-date">
-                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
-									</time>
-									</span>
-								</div>
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a></h5>
-								</div>
-								<div class="post-meta">
-									<!-- post-meta -->
-									<span class="ttm-meta-line"><i class="fa fa-comments"></i>2,comments</span>
-									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+					<div class="blog-slide triple-owl-carousel owl-carousel owl-theme">
+            <div class="item">
+              <!-- featured-imagebox-blog -->
+              <div class="featured-imagebox featured-imagebox-blog">
+                <div class="featured-thumbnail">
+                  <!-- featured-thumbnail -->
+                  <img class="img-fluid lazyload" src="/img/posts/post-1.jpg" data-src="images/blog/05.jpg" alt="">
+                  <div class="ttm-blog-overlay-iconbox">
+                    <a href="single-blog.html"><i class="ti ti-plus"></i></a>
+                  </div>
+                  <div class="ttm-box-view-overlay"></div>
+                </div>
+                <div class="featured-content">
+                  <!-- featured-content -->
+                  <div class="ttm-box-post-date">
+                    <!-- ttm-box-post-date -->
+                    <span class="ttm-entry-date">
+                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
+                    </time>
+                    </span>
+                  </div>
+                  <div class="featured-title">
+                    <!-- featured-title -->
+                    <h5><a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a></h5>
+                  </div>
+                  <div class="post-meta">
+                    <!-- post-meta -->
+                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>2,comments</span>
+                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
 
-								</div>
-								<div class="featured-desc">
-									<!-- featured-description -->
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-										the...</p>
-								</div>
-								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-							</div>
-						</div>
-						<!-- featured-imagebox-blog end -->
-						<!-- featured-imagebox-blog -->
-						<div class="featured-imagebox featured-imagebox-blog">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/blog/04.jpg" alt="">
-								<div class="ttm-blog-overlay-iconbox">
-									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
-								</div>
-								<div class="ttm-box-view-overlay"></div>
-							</div>
-							<div class="featured-content">
-								<!-- featured-content -->
-								<div class="ttm-box-post-date">
-									<!-- ttm-box-post-date -->
-									<span class="ttm-entry-date">
-                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
-									</time>
-									</span>
-								</div>
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="single-blog.html">Define World Best IT Solution Technology</a></h5>
-								</div>
-								<div class="post-meta">
-									<!-- post-meta -->
-									<span class="ttm-meta-line"><i class="fa fa-comments"></i>3,comments</span>
-									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                  </div>
+                  <div class="featured-desc">
+                    <!-- featured-description -->
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the...</p>
+                  </div>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                </div>
+              </div>
+              <!-- featured-imagebox-blog end -->
+            </div>
+            <div class="item">
+              <!-- featured-imagebox-blog -->
+              <div class="featured-imagebox featured-imagebox-blog">
+                <div class="featured-thumbnail">
+                  <!-- featured-thumbnail -->
+                  <img class="img-fluid lazyload" src="/img/posts/post-2.jpg" data-src="images/blog/04.jpg" alt="">
+                  <div class="ttm-blog-overlay-iconbox">
+                    <a href="single-blog.html"><i class="ti ti-plus"></i></a>
+                  </div>
+                  <div class="ttm-box-view-overlay"></div>
+                </div>
+                <div class="featured-content">
+                  <!-- featured-content -->
+                  <div class="ttm-box-post-date">
+                    <!-- ttm-box-post-date -->
+                    <span class="ttm-entry-date">
+                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
+                    </time>
+                    </span>
+                  </div>
+                  <div class="featured-title">
+                    <!-- featured-title -->
+                    <h5><a href="single-blog.html">Define World Best IT Solution Technology</a></h5>
+                  </div>
+                  <div class="post-meta">
+                    <!-- post-meta -->
+                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>3,comments</span>
+                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
 
-								</div>
-								<div class="featured-desc">
-									<!-- featured-description -->
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-										the...</p>
-								</div>
-								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-							</div>
-						</div>
-						<!-- featured-imagebox-blog end -->
-						<!-- featured-imagebox-blog -->
-						<div class="featured-imagebox featured-imagebox-blog">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/blog/06.jpg" alt="">
-								<div class="ttm-blog-overlay-iconbox">
-									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
-								</div>
-								<div class="ttm-box-view-overlay"></div>
-							</div>
-							<div class="featured-content">
-								<!-- featured-content -->
-								<div class="ttm-box-post-date">
-									<!-- ttm-box-post-date -->
-									<span class="ttm-entry-date">
-                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
-									</time>
-									</span>
-								</div>
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a></h5>
-								</div>
-								<div class="post-meta">
-									<!-- post-meta -->
-									<span class="ttm-meta-line"><i class="fa fa-comments"></i>1,comments</span>
-									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                  </div>
+                  <div class="featured-desc">
+                    <!-- featured-description -->
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the...</p>
+                  </div>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                </div>
+              </div>
+              <!-- featured-imagebox-blog end -->
+            </div>
+            <div class="item">
+              <!-- featured-imagebox-blog -->
+              <div class="featured-imagebox featured-imagebox-blog">
+                <div class="featured-thumbnail">
+                  <!-- featured-thumbnail -->
+                  <img class="img-fluid lazyload" src="/img/posts/post-3.jpg" data-src="images/blog/06.jpg" alt="">
+                  <div class="ttm-blog-overlay-iconbox">
+                    <a href="single-blog.html"><i class="ti ti-plus"></i></a>
+                  </div>
+                  <div class="ttm-box-view-overlay"></div>
+                </div>
+                <div class="featured-content">
+                  <!-- featured-content -->
+                  <div class="ttm-box-post-date">
+                    <!-- ttm-box-post-date -->
+                    <span class="ttm-entry-date">
+                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
+                    </time>
+                    </span>
+                  </div>
+                  <div class="featured-title">
+                    <!-- featured-title -->
+                    <h5><a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a></h5>
+                  </div>
+                  <div class="post-meta">
+                    <!-- post-meta -->
+                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>1,comments</span>
+                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
 
-								</div>
-								<div class="featured-desc">
-									<!-- featured-description -->
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-										the...</p>
-								</div>
-								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-							</div>
-						</div>
-						<!-- featured-imagebox-blog end -->
-						<!-- featured-imagebox-blog -->
-						<div class="featured-imagebox featured-imagebox-blog">
-							<div class="featured-thumbnail">
-								<!-- featured-thumbnail -->
-								<img class="img-fluid lazyload" data-src="images/blog/07.jpg" alt="">
-								<div class="ttm-blog-overlay-iconbox">
-									<a href="single-blog.html"><i class="ti ti-plus"></i></a>
-								</div>
-								<div class="ttm-box-view-overlay"></div>
-							</div>
-							<div class="featured-content">
-								<!-- featured-content -->
-								<div class="ttm-box-post-date">
-									<!-- ttm-box-post-date -->
-									<span class="ttm-entry-date">
-                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
-									</time>
-									</span>
-								</div>
-								<div class="featured-title">
-									<!-- featured-title -->
-									<h5><a href="single-blog.html">Digital Conference Of IT Tech Events in 2019</a></h5>
-								</div>
-								<div class="post-meta">
-									<!-- post-meta -->
-									<span class="ttm-meta-line"><i class="fa fa-comments"></i>4,comments</span>
-									<span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                  </div>
+                  <div class="featured-desc">
+                    <!-- featured-description -->
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the...</p>
+                  </div>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                </div>
+              </div>
+              <!-- featured-imagebox-blog end -->
+            </div>
+            <div class="item">
+              <!-- featured-imagebox-blog -->
+              <div class="featured-imagebox featured-imagebox-blog">
+                <div class="featured-thumbnail">
+                  <!-- featured-thumbnail -->
+                  <img class="img-fluid lazyload" src="/img/posts/post-4.jpg" data-src="images/blog/07.jpg" alt="">
+                  <div class="ttm-blog-overlay-iconbox">
+                    <a href="single-blog.html"><i class="ti ti-plus"></i></a>
+                  </div>
+                  <div class="ttm-box-view-overlay"></div>
+                </div>
+                <div class="featured-content">
+                  <!-- featured-content -->
+                  <div class="ttm-box-post-date">
+                    <!-- ttm-box-post-date -->
+                    <span class="ttm-entry-date">
+                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
+                    </time>
+                    </span>
+                  </div>
+                  <div class="featured-title">
+                    <!-- featured-title -->
+                    <h5><a href="single-blog.html">Digital Conference Of IT Tech Events in 2019</a></h5>
+                  </div>
+                  <div class="post-meta">
+                    <!-- post-meta -->
+                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>4,comments</span>
+                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
 
-								</div>
-								<div class="featured-desc">
-									<!-- featured-description -->
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-										the...</p>
-								</div>
-								<a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
-							</div>
-						</div>
-						<!-- featured-imagebox-blog end -->
+                  </div>
+                  <div class="featured-desc">
+                    <!-- featured-description -->
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the...</p>
+                  </div>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                </div>
+              </div>
+              <!-- featured-imagebox-blog end -->
+            </div>
 					</div>
-				</div>
 				<!-- row end -->
 			</div>
 		</section>
