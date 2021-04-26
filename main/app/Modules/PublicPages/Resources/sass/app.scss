@@ -228,7 +228,6 @@ header .menu-bar,
 }
 
 header form button,
-form button,
 .ttm-header-wrap .site-branding img {
 	width: 40px;
 }
@@ -313,6 +312,7 @@ form button,
 	font-size: .8;
 	color: rgb(194, 185, 185);
 	font-weight: 900;
+  letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
@@ -435,7 +435,6 @@ header .right-side .quote,
 
 header form input,
 header form button,
-form button,
 header .right-side .quote,
 .site-main .aboutus-section .about-overlay-01{
 	height: 40px;
@@ -602,11 +601,6 @@ ul{
   padding-left: 0;
 }
 
-.mb-nav-display {
-  height: 200px;
-	overflow: auto;
-}
-
 footer{
   background-color: #E3B505;
   color: #e4e4e4;
@@ -633,36 +627,41 @@ footer a{
   font-size: .8em;
 }
 
-footer .widget a{
-  margin-right: 15px;
+footer .link-widget li{
   margin-bottom: 10px;
 }
 
+footer .link-widget li i{
+  margin-right: 20px;
+}
+
 footer .widget-post{
-  background-color: #FEF6C9;
   display: block;
   margin-bottom: 20px;
 }
 
 footer .widget-post li{
   padding: 20px;
+  display: block;
+  background-color: #bf0d0a;
 }
 
 footer .widget-post .img-right{
   display: block;
   float: left;
   margin-right: 10px;
+  width: 20%;
 }
 
 footer .widget-post .img-right img{
-  width: 20%;
+  width: 100%;
   height: 50px;
 }
 
 footer .widget-post .txt-left{
   float: left;
   padding: 10px 0;
-  width: 65%;
+  width: 75%;
 }
 
 footer .widget-post .txt-left a,
@@ -689,7 +688,7 @@ footer .newsletter-form .submit{
   top: 0;
   display: block;
   right: 0;
-  height: 50px;
+  height: 48px;
   width: 50px;
 }
 
@@ -818,18 +817,23 @@ footer .footer-nav-menu li{
 
     }
 
-	header .menu-bar .hambugar,
-	.mb-nav-display .mb-search-wrap form input {
-        width: 80%;
-	}
+    header .menu-bar .hambugar,
+    .mb-nav-display .mb-search-wrap form input {
+          width: 80%;
+    }
+
+    .mobile-view{
+      position: fixed;
+      z-index: 999999;
+      top: 70px;
+    }
 
 
     .mb-nav-display {
       width: 300px;
+      height: 100vh;
+      overflow: auto;
       background-color: #6B0504;
-      position: fixed;
-      top: 50px;
-		  z-index: 9999999;
     }
 
     .mb-nav-display ul {
@@ -855,7 +859,7 @@ footer .footer-nav-menu li{
     }
 
     .mb-nav-display .mb-search-wrap {
-        height: 60px;
+        height: 67px;
         padding: 0;
     }
 
@@ -876,6 +880,15 @@ footer .footer-nav-menu li{
     .mb-nav-display .bottom {
         margin-top: 20px;
         color: #fff;
+    }
+
+    form button{
+      width: 45px;
+      height: 48px;
+    }
+
+    footer .widget-post .img-right {
+      margin-right: 8px;
     }
 }
 

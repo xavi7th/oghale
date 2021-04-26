@@ -91,20 +91,20 @@
 						<div class="screen"></div>
 						<div class="container wrap">
 							<div class="box">
-								<h2 class="font1">Discuss Your Project</h2>
-								<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
+								<h2 class="font4">Discuss Your Project</h2>
+								<h2 class="font4">Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
 								<div class="rows">
 									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11">Your Business</p>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font3">Your Business</p>
 									</div>
 									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11">Get A Quote</p>
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font3">Get A Quote</p>
 									</div>
 									<div class="checker col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11"> We are equipped with an updated technical
+										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-11 font3"> We are equipped with an updated technical
 											knowledge to serve our customers
 											<br> properly. Our method of application maintains the industry.
 										</p>
@@ -123,24 +123,24 @@
 						<div class="screen"></div>
 						<div class="container wrap">
 							<div class="box">
-								<h2 class="font1">Get Altech</h2>
+								<h2 class="font4">Get Altech</h2>
 								<div class="rows">
 									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">Real-Time Monitoring</p>
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11 font3">Real-Time Monitoring</p>
 									</div>
 									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">Infrstracture</p>
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11 font3">Infrstracture</p>
 									</div>
 									<div class="checker col-lg-12 col-md-12 col-sn-12 col-xs-12">
 										<i class="fa fa-check col-lg-1 col-md-1 col-sn-1 col-xs-1"></i>
-										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
+										<p class="col-lg-11 col-md-11 col-sn-11 col-xs-11 font3">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
 										</p>
 									</div>
 								</div>
 								<div class="clearfix"></div>
-								<a href="#" class="slide-btn">Read More</a>
+								<a href="#" class="slide-btn font3">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -173,11 +173,11 @@
 								<!--  featured-content -->
 								<div class="featured-title">
 									<!--  featured-title -->
-									<h5>Trusted Services</h5>
+									<h5 class="font3">Trusted Services</h5>
 								</div>
 								<div class="featured-desc">
 									<!--  featured-desc -->
-									<p>We Are Trusted Our Customers</p>
+									<p class="font3">We Are Trusted Our Customers</p>
 								</div>
 							</div>
 						</div>
@@ -198,11 +198,11 @@
 								<!--  featured-content -->
 								<div class="featured-title">
 									<!--  featured-title -->
-									<h5>24/7 Support</h5>
+									<h5 class="font3">24/7 Support</h5>
 								</div>
 								<div class="featured-desc">
 									<!--  featured-desc -->
-									<p>000 7845 114 - 123 4567 890</p>
+									<p class="font3">000 7845 114 - 123 4567 890</p>
 								</div>
 							</div>
 						</div>
@@ -223,11 +223,11 @@
 								<!--  featured-content -->
 								<div class="featured-title">
 									<!--  featured-title -->
-									<h5>Expert &amp; Professional</h5>
+									<h5 class="font3">Expert &amp; Professional</h5>
 								</div>
 								<div class="featured-desc">
 									<!--  featured-desc -->
-									<p>We Are Trusted Our Customers</p>
+									<p class="font3">We Are Trusted Our Customers</p>
 								</div>
 							</div>
 						</div>
@@ -246,10 +246,10 @@
 						<!-- section title -->
 						<div class="section-title with-desc clearfix">
 							<div class="title-header">
-								<h5>About us</h5>
-								<h2 class="title">We are here to IT Solution with 20 years of <span>experience</span></h2>
+								<h5 class="font4">About us</h5>
+								<h2 class="title font3">We are here to IT Solution with 20 years of <span>experience</span></h2>
 							</div>
-							<div class="title-desc">
+							<div class="title-desc font3 font3">
 								<p> Web designing in a powerful way of just not an only professions, however, in a passion for our
 									Company. We have to a tendency to believe the idea that smart looking of any website is the first
 									impression on visitors.
@@ -264,26 +264,26 @@
 							<div class="col-md-6 col-lg-6 col-sm-6">
 								<ul class="ttm-list ttm-list-style-icon">
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">Web And Mobile Application </span>
+										<span class="ttm-list-li-content font3">Web And Mobile Application </span>
 									</li>
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">New Domain Registration</span>
+										<span class="ttm-list-li-content font3">New Domain Registration</span>
 									</li>
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">Data Text Synchronization</span>
+										<span class="ttm-list-li-content font3">Data Text Synchronization</span>
 									</li>
 								</ul>
 							</div>
 							<div class="col-md-6 col-lg-6 col-sm-6">
 								<ul class="ttm-list ttm-list-style-icon">
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">Improving Our Website Design</span>
+										<span class="ttm-list-li-content font3">Improving Our Website Design</span>
 									</li>
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">Web &amp; Email Hosting Services </span>
+										<span class="ttm-list-li-content font3">Web &amp; Email Hosting Services </span>
 									</li>
 									<li><i class="la la-circle ttm-textcolor-skincolor"></i>
-										<span class="ttm-list-li-content">Artificial Intelligence Web App</span>
+										<span class="ttm-list-li-content font3">Artificial Intelligence Web App</span>
 									</li>
 								</ul>
 							</div>
@@ -309,7 +309,7 @@
 							<!--featured-icon-box-->
 							<div class="about-overlay-01">
 								<div class="info-wrap">
-									<p class="mb-0">American IT Solutions Association AIA.</p>
+									<p class="mb-0 font3">American IT Solutions Association AIA.</p>
 									<div class="effect-div"></div>
 								</div>
 							</div>
@@ -331,8 +331,8 @@
 						<!-- section title -->
 						<div class="section-title with-desc text-center clearfix">
 							<div class="title-header">
-								<h5>Our Services</h5>
-								<h2 class="title">We run all kinds of services in form of <span>Information & Technologies</span></h2>
+								<h5 class="font4">Our Services</h5>
+								<h2 class="title font3">We run all kinds of services in form of <span>Information & Technologies</span></h2>
 							</div>
 						</div>
 						<!-- section title end -->
@@ -368,15 +368,15 @@
                       <!-- ttm-history-box-border  -->
                       <div class="ttm-history-box-details">
                         <div class="ttm-historybox-title">
-                          <h5>IT Consultancy</h5>
+                          <h5 class="font3">IT Consultancy</h5>
                         </div>
                         <!-- historybox-title  -->
-                        <div class="ttm-historybox-description">
+                        <div class="ttm-historybox-description font3">
                           <!-- description  -->
                           Expertise in IT consultancy for the IT companies, for their different working areas Web-app
                           related.
                         </div>
-                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -402,15 +402,15 @@
                       <!-- ttm-history-box-border  -->
                       <div class="ttm-history-box-details">
                         <div class="ttm-historybox-title">
-                          <h5>IT Management</h5>
+                          <h5 class="font3">IT Management</h5>
                         </div>
                         <!-- historybox-title  -->
-                        <div class="ttm-historybox-description">
+                        <div class="ttm-historybox-description font3">
                           <!-- description  -->
                           We provide all kind of IT management services of in the according to on their organization
                           prioritie.
                         </div>
-                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                       </div>
                     </div>
                     <!-- ttm-history-box-wrapper  END-->
@@ -436,16 +436,16 @@
                       <!-- ttm-history-box-border  -->
                       <div class="ttm-history-box-details">
                         <div class="ttm-historybox-title">
-                          <h5>Product Design</h5>
+                          <h5 class="font3">Product Design</h5>
                         </div>
                         <!-- historybox-title  -->
-                        <div class="ttm-historybox-description">
+                        <div class="ttm-historybox-description font3">
                           <!-- description  -->
                           Our firm is expert to create an efficient for user interface that makes design user
                           interaction
                           lively.
                         </div>
-                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                       </div>
                     </div>
                     <!-- ttm-history-box-wrapper  END-->
@@ -471,15 +471,15 @@
                       <!-- ttm-history-box-border  -->
                       <div class="ttm-history-box-details">
                         <div class="ttm-historybox-title">
-                          <h5>Cloud Services</h5>
+                          <h5 class=" font3">Cloud Services</h5>
                         </div>
                         <!-- historybox-title  -->
-                        <div class="ttm-historybox-description">
+                        <div class="ttm-historybox-description font3">
                           <!-- description  -->
                           We develop, migrate and work on web applications to ensure that they run on capably on
                           clouds.
                         </div>
-                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                       </div>
                     </div>
                     <!-- ttm-history-box-wrapper  END-->
@@ -495,8 +495,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 short-info text-center mt-45 res-991-mt-30">
-							<p class="mb-0">Don’t hesitate, contact us for better help and services.
-								<strong><u><a href="#" class="ttm-textcolor-darkgrey"> View more Services</a></u></strong>
+							<p class="mb-0 font3">Don’t hesitate, contact us for better help and services.
+								<strong><u><a href="#" class="ttm-textcolor-darkgrey font3"> View more Services</a></u></strong>
 							</p>
 						</div>
 					</div>
@@ -528,10 +528,10 @@
 									<!-- section title -->
 									<div class="section-title with-desc clearfix">
 										<div class="title-header">
-											<h5>Why Altech</h5>
-											<h2 class="title">We deal with the aspects of professional <span>IT Services</span></h2>
+											<h5 class="font4">Why Altech</h5>
+											<h2 class="title font3">We deal with the aspects of professional <span>IT Services</span></h2>
 										</div>
-										<div class="title-desc">
+										<div class="title-desc font3">
 											<p>Our IT services converge business and technology experts to help to manage business processes
 												of all categories.</p>
 										</div>
@@ -551,11 +551,11 @@
 												<div class="featured-content">
 													<div class="featured-title">
 														<!-- featured title -->
-														<h5>Product Designs</h5>
+														<h5 class="font3">Product Designs</h5>
 													</div>
 													<div class="featured-desc">
 														<!-- featured desc -->
-														<p>Our firm is expert to create an efficient user interface that makes user interaction is
+														<p class="font3">Our firm is expert to create an efficient user interface that makes user interaction is
 															lively.</p>
 													</div>
 												</div>
@@ -581,11 +581,11 @@
 												<div class="featured-content">
 													<div class="featured-title">
 														<!-- featured title -->
-														<h5>Big Data &amp; Analytics</h5>
+														<h5 class="font3">Big Data &amp; Analytics</h5>
 													</div>
 													<div class="featured-desc">
 														<!-- featured desc -->
-														<p>Statistical analysis to help an organization to gain insights from large information web
+														<p class="font3">Statistical analysis to help an organization to gain insights from large information web
 															sets.</p>
 													</div>
 												</div>
@@ -611,11 +611,11 @@
 												<div class="featured-content">
 													<div class="featured-title">
 														<!-- featured title -->
-														<h5>Maintain App Data</h5>
+														<h5 class="font3">Maintain App Data</h5>
 													</div>
 													<div class="featured-desc">
 														<!-- featured desc -->
-														<p>We Create the optimal platform to develop and run digital applications for our clients
+														<p class="font3">We Create the optimal platform to develop and run digital applications for our clients
 															app.</p>
 													</div>
 												</div>
@@ -639,17 +639,17 @@
 						<!-- section-title -->
 						<div class="section-title style2 clearfix">
 							<div class="title-header">
-								<h5>About us</h5>
-								<h2 class="title">Meet our <span>Leadership</span></h2>
+								<h5 class="font4">About us</h5>
+								<h2 class="title font3">Meet our <span>Leadership</span></h2>
 							</div>
-							<div class="title-desc">The positive distinction within the World Inspiring of Success and Connections of
+							<div class="title-desc font3">The positive distinction within the World Inspiring of Success and Connections of
 								People and Organizations.</div>
 						</div>
 						<!-- section-title end -->
 					</div>
 					<div class="col-lg-3 col-xl-2 col-md-3">
 						<div class="text-md-right">
-							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey mb-40" href="#" title=""> Read More </a>
+							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey mb-40 font3" href="#" title=""> Read More </a>
 						</div>
 					</div>
 				</div>
@@ -682,9 +682,9 @@
 										<div class="featured-content box-shadow">
 											<div class="featured-title">
 												<!-- featured-title -->
-												<h5><a href="team-details.html">Jennifer Garcia</a></h5>
+												<h5><a href="team-details.html" class=" font3">Jennifer Garcia</a></h5>
 											</div>
-											<p class="category">IT Service Officer</p>
+											<p class="category font3">IT Service Officer</p>
 											<!-- category -->
 										</div>
 									</div>
@@ -714,9 +714,9 @@
 										<div class="featured-content box-shadow">
 											<div class="featured-title">
 												<!-- featured-title -->
-												<h5><a href="team-details.html">Robert Liam</a></h5>
+												<h5><a href="team-details.html" class=" font3">Robert Liam</a></h5>
 											</div>
-											<p class="category">Web Designer</p>
+											<p class="category font3">Web Designer</p>
 											<!-- category -->
 										</div>
 									</div>
@@ -746,9 +746,9 @@
 										<div class="featured-content box-shadow">
 											<div class="featured-title">
 												<!-- featured-title -->
-												<h5><a href="team-details.html">Jessica Ethan</a></h5>
+												<h5><a href="team-details.html" class=" font3">Jessica Ethan</a></h5>
 											</div>
-											<p class="category">Project Manager</p>
+											<p class="category font3">Project Manager</p>
 											<!-- category -->
 										</div>
 									</div>
@@ -778,9 +778,9 @@
 										<div class="featured-content box-shadow">
 											<div class="featured-title">
 												<!-- featured-title -->
-												<h5><a href="team-details.html">Amanda Brown</a></h5>
+												<h5><a href="team-details.html" class=" font3">Amanda Brown</a></h5>
 											</div>
-											<p class="category">Consultant Officer</p>
+											<p class="category font3">Consultant Officer</p>
 											<!-- category -->
 										</div>
 									</div>
@@ -813,14 +813,14 @@
 							<!-- section-title -->
 							<div class="section-title row-title clearfix">
 								<div class="title-header">
-									<h2 class="title">We Provide Outsourced IT Services For Small & <span>Mid-Sized Business</span></h2>
+									<h2 class="title font3">We Provide Outsourced IT Services For Small & <span>Mid-Sized Business</span></h2>
 								</div>
-								<div class="title-desc">Appropriate for your specific business, making it easy for<br> you to have quality IT services. What We Do
+								<div class="title-desc font3">Appropriate for your specific business, making it easy for<br> you to have quality IT services. What We Do
 								</div>
 							</div>
 							<!-- section-title end -->
 							<div class="mt-40">
-								<a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">More Services</a>
+								<a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white font3">More Services</a>
 							</div>
 						</div>
 					</div>
@@ -845,30 +845,30 @@
 									<!-- section title -->
 									<div class="section-title with-desc clearfix">
 										<div class="title-header">
-											<h5>What We Do</h5>
-											<h2 class="title">We help you to grow your business <span>Exponentially</span></h2>
+											<h5 class="font4">What We Do</h5>
+											<h2 class="title font3">We help you to grow your business <span>Exponentially</span></h2>
 										</div>
 									</div>
 									<!-- section title end -->
 									<!-- progress-bar -->
 									<div class="ttm-progress-bar" data-percent="90%">
-										<div class="progress-bar-title">UI/UX Design</div>
+										<div class="progress-bar-title font3">UI/UX Design</div>
 										<!-- progress-bar-title -->
 										<div class="progress-bar-inner">
 											<div class="progress-bar progress-bar-color-bar_skincolor"></div>
 										</div>
-										<div class="progress-bar-percent" data-percent="90">90%</div>
+										<div class="progress-bar-percent font3" data-percent="90">90%</div>
 										<!-- progress-bar-percent -->
 									</div>
 									<!-- progress-bar END -->
 									<!-- progress-bar -->
 									<div class="ttm-progress-bar" data-percent="80%">
-										<div class="progress-bar-title">App Development</div>
+										<div class="progress-bar-title font3">App Development</div>
 										<!-- progress-bar-TITLE -->
 										<div class="progress-bar-inner">
 											<div class="progress-bar progress-bar-color-bar_skincolor"></div>
 										</div>
-										<div class="progress-bar-percent" data-percent="80">80%</div>
+										<div class="progress-bar-percent font3" data-percent="80">80%</div>
 										<!-- progress-bar-PERCENT -->
 									</div>
 									<!-- progress-bar END -->
@@ -896,7 +896,7 @@
 													<img class="img-center lazyload" src="/img/avatars/avatar-1.jpg" data-src="/img/avatars/avatar-1.jpg" alt="testimonial-img">
 												</div>
 											</div>
-											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+											<blockquote class="font3">Our team discussed every single detail to make sure Creatives Planet is the most
 												versatile and unique theme created so far. No coding skills.</blockquote>
 											<div class="ttm-ratting-star">
 												<i class="fa fa-star"></i>
@@ -907,8 +907,8 @@
 											</div>
 											<div class="testimonial-caption">
 												<!-- testimonials-caption -->
-												<h6>Victor Williamson</h6>
-												<span>Web Devloper</span>
+												<h6 class="font3">Victor Williamson</h6>
+												<span class="font3">Web Devloper</span>
 											</div>
 										</div>
 									</div>
@@ -923,7 +923,7 @@
 													<img class="img-center lazyload" src="/img/avatars/avatar-2.jpg" data-src="/img/avatars/avatar-2.jpg" alt="testimonial-img">
 												</div>
 											</div>
-											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+											<blockquote class="font3">Our team discussed every single detail to make sure Creatives Planet is the most
 												versatile and unique theme created so far. No coding skills.</blockquote>
 											<div class="ttm-ratting-star">
 												<i class="fa fa-star"></i>
@@ -934,8 +934,8 @@
 											</div>
 											<div class="testimonial-caption">
 												<!-- testimonials-caption -->
-												<h6>Victor Williamson</h6>
-												<span>Web Devloper</span>
+												<h6 class="font3">Victor Williamson</h6>
+												<span class="font3">Web Devloper</span>
 											</div>
 										</div>
 									</div>
@@ -950,7 +950,7 @@
 													<img class="img-center lazyload" src="/img/avatars/avatar-3.jpg" data-src="/img/avatars/avatar-3.jpg" alt="testimonial-img">
 												</div>
 											</div>
-											<blockquote>Our team discussed every single detail to make sure Creatives Planet is the most
+											<blockquote class="font3">Our team discussed every single detail to make sure Creatives Planet is the most
 												versatile and unique theme created so far. No coding skills.</blockquote>
 											<div class="ttm-ratting-star">
 												<i class="fa fa-star"></i>
@@ -961,8 +961,8 @@
 											</div>
 											<div class="testimonial-caption">
 												<!-- testimonials-caption -->
-												<h6>Victor Williamson</h6>
-												<span>Web Devloper</span>
+												<h6 class="font3">Victor Williamson</h6>
+												<span class="font3">Web Devloper</span>
 											</div>
 										</div>
 									</div>
@@ -984,8 +984,8 @@
 						<!-- section title -->
 						<div class="section-title text-center with-desc clearfix">
 							<div class="title-header">
-								<h5>how it work</h5>
-								<h2 class="title">Check Out Our Work <span>Process</span></h2>
+								<h5 class="font4">how it work</h5>
+								<h2 class="title font3">Check Out Our Work <span>Process</span></h2>
 							</div>
 						</div>
 						<!-- section title end -->
@@ -1000,14 +1000,14 @@
 									<div class="ttm-box-image">
 										<img class="img-fluid lazyload" src="/img/categories/category-1.jpg" data-src="/img/categories/category-1.jpg" alt="step-one" title="step-one">
 										<div class="process-num">
-											<span class="number">01</span>
+											<span class="number font3">01</span>
 										</div>
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5>Choose a Service</h5>
+											<h5 class="font3">Choose a Service</h5>
 										</div>
-										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										<div class="ttm-box-description font3">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
 										</div>
 									</div>
 								</div>
@@ -1015,14 +1015,14 @@
 									<div class="ttm-box-image">
 										<img class="img-fluid lazyload" src="/img/categories/category-2.jpg" data-src="/img/categories/category-2.jpg"alt="step-two" title="step-two">
 										<div class="process-num">
-											<span class="number">02</span>
+											<span class="number font3">02</span>
 										</div>
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5>Request a Meeting</h5>
+											<h5 class="font3">Request a Meeting</h5>
 										</div>
-										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										<div class="ttm-box-description font3">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
 										</div>
 									</div>
 								</div>
@@ -1030,14 +1030,14 @@
 									<div class="ttm-box-image">
 										<img class="img-fluid lazyload" src="/img/categories/category-3.jpg" data-src="/img/categories/category-3.jpg" alt="step-three" title="step-three">
 										<div class="process-num">
-											<span class="number">03</span>
+											<span class="number font3">03</span>
 										</div>
 									</div>
 									<div class="featured-content">
 										<div class="featured-title">
-											<h5>Receive Custom Plan</h5>
+											<h5 class="font3">Receive Custom Plan</h5>
 										</div>
-										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										<div class="ttm-box-description font3">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
 										</div>
 									</div>
 								</div>
@@ -1045,14 +1045,14 @@
 									<div class="ttm-box-image">
 										<img class="img-fluid lazyload" src="/img/categories/category-4.jpg" data-src="/img/categories/category-4.jpg" alt="step-four" title="step-four">
 										<div class="process-num">
-											<span class="number">04</span>
+											<span class="number font3">04</span>
 										</div>
 									</div>
 									<div class="featured-content">
-										<div class="featured-title">
-											<h5>Let’s Make it Happen</h5>
+										<div class="featured-title font3">
+											<h5 class="font3">Let’s Make it Happen</h5>
 										</div>
-										<div class="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
+										<div class="ttm-box-description font3">Aute irure dolor reprehenderit velit esse cillum dolore fugiat
 										</div>
 									</div>
 								</div>
@@ -1074,17 +1074,17 @@
 						<!-- section-title -->
 						<div class="section-title style2 clearfix">
 							<div class="title-header">
-								<h5>We Make Connections</h5>
-								<h2 class="title">Explore recent <span>Projects</span></h2>
+								<h5 class="font4">We Make Connections</h5>
+								<h2 class="title font3">Explore recent <span>Projects</span></h2>
 							</div>
-							<div class="title-desc">A project is a temporary endeavor with a defined beginning and end, scope, and
+							<div class="title-desc font3">A project is a temporary endeavor with a defined beginning and end, scope, and
 								assigned resources.</div>
 						</div>
 						<!-- section-title end -->
 					</div>
 					<div class="col-lg-3 col-xl-2 col-md-3">
 						<div class="text-md-right">
-							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white mb-40" href="#" title=""> Read More </a>
+							<a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white mb-40 font3" href="#" title=""> Read More </a>
 						</div>
 					</div>
 				</div>
@@ -1117,7 +1117,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">Business Seminar</a></h5>
+									<h5><a href="single-style-01.html" class="font3">Business Seminar</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1143,7 +1143,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">IT Management</a></h5>
+									<h5><a href="single-style-01.html" class="font3">IT Management</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1154,7 +1154,7 @@
 						<div class="featured-imagebox featured-imagebox-portfolio style1">
 							<!-- featured-thumbnail -->
 							<div class="featured-thumbnail">
-								<img class="img-fluid lazyload" src="/img/posts/post-.jpg" data-src="/img/posts/post-7.jpg" alt="portfolio-img">
+								<img class="img-fluid lazyload" src="/img/posts/post-3.jpg" data-src="/img/posts/post-7.jpg" alt="portfolio-img">
 							</div>
 							<!-- featured-thumbnail end-->
 							<!-- ttm-box-view-overlay -->
@@ -1169,7 +1169,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">Cyber Security Analysis</a></h5>
+									<h5><a href="single-style-01.html" class="font3">Cyber Security Analysis</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1195,7 +1195,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">Neural Networking</a></h5>
+									<h5><a href="single-style-01.html" class="font3">Neural Networking</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1221,7 +1221,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">Data Management</a></h5>
+									<h5><a href="single-style-01.html" class="font3">Data Management</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1247,7 +1247,7 @@
 							<div class="featured-content">
 								<div class="featured-title">
 									<!-- featured-title -->
-									<h5><a href="single-style-01.html">Web Devlopment</a></h5>
+									<h5><a href="single-style-01.html" class="font3">Web Devlopment</a></h5>
 								</div>
 							</div>
 						</div>
@@ -1265,8 +1265,8 @@
 						<!-- section title -->
 						<div class="section-title text-center with-desc clearfix">
 							<div class="title-header">
-								<h5>Our Blog</h5>
-								<h2 class="title">Check Out Our <span>Latest News</span></h2>
+								<h5 class="font4">Our Blog</h5>
+								<h2 class="title font3">Check Out Our <span>Latest News</span></h2>
 							</div>
 						</div>
 						<!-- section title end -->
@@ -1292,26 +1292,26 @@
                   <div class="ttm-box-post-date">
                     <!-- ttm-box-post-date -->
                     <span class="ttm-entry-date">
-                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
+                    <time class="entry-date font3" datetime="2019-01-16T07:07:55+00:00">17<span class="entry-month entry-year">Apr</span>
                     </time>
                     </span>
                   </div>
                   <div class="featured-title">
                     <!-- featured-title -->
-                    <h5><a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a></h5>
+                    <h5><a href="single-blog.html" class="font3">You Must Try 20 Secret Of Digital Transform</a></h5>
                   </div>
                   <div class="post-meta">
                     <!-- post-meta -->
-                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>2,comments</span>
-                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-comments"></i>2,comments</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-user"></i>Admin</span>
 
                   </div>
-                  <div class="featured-desc">
+                  <div class="featured-desc font3">
                     <!-- featured-description -->
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                       the...</p>
                   </div>
-                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                 </div>
               </div>
               <!-- featured-imagebox-blog end -->
@@ -1332,26 +1332,26 @@
                   <div class="ttm-box-post-date">
                     <!-- ttm-box-post-date -->
                     <span class="ttm-entry-date">
-                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
+                                              <time class="entry-date font3" datetime="2019-01-16T07:07:55+00:00">12<span class="entry-month entry-year">Dec</span>
                     </time>
                     </span>
                   </div>
                   <div class="featured-title">
                     <!-- featured-title -->
-                    <h5><a href="single-blog.html">Define World Best IT Solution Technology</a></h5>
+                    <h5><a href="single-blog.html" class="font3">Define World Best IT Solution Technology</a></h5>
                   </div>
                   <div class="post-meta">
                     <!-- post-meta -->
-                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>3,comments</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-comments"></i>3,comments</span>
                     <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
 
                   </div>
                   <div class="featured-desc">
                     <!-- featured-description -->
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <p class="font3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                       the...</p>
                   </div>
-                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                 </div>
               </div>
               <!-- featured-imagebox-blog end -->
@@ -1372,26 +1372,26 @@
                   <div class="ttm-box-post-date">
                     <!-- ttm-box-post-date -->
                     <span class="ttm-entry-date">
-                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
+                                              <time class="entry-date font3" datetime="2019-01-16T07:07:55+00:00">22<span class="entry-month entry-year">May</span>
                     </time>
                     </span>
                   </div>
                   <div class="featured-title">
                     <!-- featured-title -->
-                    <h5><a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a></h5>
+                    <h5><a href="single-blog.html" class="font3">10 PHP Frameworks You Need To Use Anywhere</a></h5>
                   </div>
                   <div class="post-meta">
                     <!-- post-meta -->
-                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>1,comments</span>
-                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-comments"></i>1,comments</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-user"></i>Admin</span>
 
                   </div>
                   <div class="featured-desc">
                     <!-- featured-description -->
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <p class="font3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                       the...</p>
                   </div>
-                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                 </div>
               </div>
               <!-- featured-imagebox-blog end -->
@@ -1412,26 +1412,26 @@
                   <div class="ttm-box-post-date">
                     <!-- ttm-box-post-date -->
                     <span class="ttm-entry-date">
-                                              <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
+                                              <time class="entry-date font3" datetime="2019-01-16T07:07:55+00:00">04<span class="entry-month entry-year">Aug</span>
                     </time>
                     </span>
                   </div>
                   <div class="featured-title">
                     <!-- featured-title -->
-                    <h5><a href="single-blog.html">Digital Conference Of IT Tech Events in 2019</a></h5>
+                    <h5><a href="single-blog.html" class="font3">Digital Conference Of IT Tech Events in 2019</a></h5>
                   </div>
                   <div class="post-meta">
                     <!-- post-meta -->
-                    <span class="ttm-meta-line"><i class="fa fa-comments"></i>4,comments</span>
-                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-comments"></i>4,comments</span>
+                    <span class="ttm-meta-line font3"><i class="fa fa-user"></i>Admin</span>
 
                   </div>
                   <div class="featured-desc">
                     <!-- featured-description -->
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <p class="font3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                       the...</p>
                   </div>
-                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
+                  <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20 font3" href="#">Read More <i class="ti ti-angle-double-right"></i></a>
                 </div>
               </div>
               <!-- featured-imagebox-blog end -->
