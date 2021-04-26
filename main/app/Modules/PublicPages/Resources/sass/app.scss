@@ -80,6 +80,7 @@ header .right-side .quote,
 
 .nav-dsk .drop-dsk-2 {
     right: -130px;
+    top: 0;
 }
 
 .nav-dsk li {
@@ -265,10 +266,6 @@ form button,
 .site-main .history-section .ttm-history-box-wrapper .ttm-icon,
 .site-main .team-section .featured-imagebox{
 	position: relative;
-}
-
-.nav-dsk .inner-main-nav-dsk{
-  right: -130px;
 }
 
 .nav-dsk .drop-dsk-2,
@@ -614,6 +611,10 @@ footer{
   color: #e4e4e4;
 }
 
+footer .footer-logo img{
+  width: 90px
+}
+
 footer .first-footer{
   font-size: .8em;
   height: 40px;
@@ -642,19 +643,25 @@ footer .widget-post{
   margin-bottom: 20px;
 }
 
+footer .widget-post li{
+  padding: 20px;
+}
+
 footer .widget-post .img-right{
   display: block;
   float: left;
+  margin-right: 10px;
 }
 
 footer .widget-post .img-right img{
-  width: 100%;
+  width: 20%;
   height: 50px;
 }
 
 footer .widget-post .txt-left{
   float: left;
   padding: 10px 0;
+  width: 65%;
 }
 
 footer .widget-post .txt-left a,
@@ -669,10 +676,11 @@ footer .newsletter-form{
 
 footer .newsletter-form i{
   display: block;
-  width: 50px;
-  height: 50px;
   position: absolute;
-  left: 0;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 footer .newsletter-form .submit{
@@ -680,6 +688,8 @@ footer .newsletter-form .submit{
   top: 0;
   display: block;
   right: 0;
+  height: 50px;
+  width: 50px;
 }
 
 footer .social-icons a{
@@ -870,7 +880,7 @@ footer .footer-nav-menu li{
 
 @media (max-width: 600px){
   .hero{
-    height: 70vh;
+    height: 50vh;
     width: 100%;
   }
 }

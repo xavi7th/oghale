@@ -375,7 +375,7 @@
 							<h3 class="widget-title">Latest News</h3>
 							<ul class="widget-post ttm-recent-post-list">
 								<li>
-									<a href="single-blog.html" class="img-right col-lg-2">
+									<a href="single-blog.html" class="img-right">
                     <img src="/img/posts/post-1.jpg" data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img">
                   </a>
 									<div class="txt-left col-lg-10">
@@ -383,16 +383,6 @@
 									  <span class="post-date"><i class="fa fa-calendar"></i>May 01, 2019</span>
                   </div>
                   <div class="clearfix"></div>
-								</li>
-								<li>
-									<a href="single-blog.html"><img src="/img/posts/post-1.jpg"  data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img"></a>
-									<a href="single-blog.html">You Must Try 20 Secret Of Digital Transform</a>
-									<span class="post-date"><i class="fa fa-calendar"></i>May 03, 2019</span>
-								</li>
-								<li>
-									<a href="single-blog.html"><img src="/img/posts/post-1.jpg"  data-src="/img/posts/post-1.jpg" class="lazyload" alt="post-img"></a>
-									<a href="single-blog.html">10 PHP Frameworks You Need To Use Anywhere</a>
-									<span class="post-date"><i class="fa fa-calendar"></i>May 05, 2019</span>
 								</li>
 							</ul>
 						</div>

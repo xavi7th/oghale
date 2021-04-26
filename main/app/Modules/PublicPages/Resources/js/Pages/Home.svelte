@@ -95,15 +95,15 @@
 								<h2>Best <strong class="ttm-textcolor-skincolor">Platform</strong> to Grow</h2>
 								<div class="rows">
 									<div class="checker">
-										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
 										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Your Business</p>
 									</div>
 									<div class="checker">
-										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
 										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1">Get A Quote</p>
 									</div>
 									<div class="checker">
-										<i class="fas fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
+										<i class="fa fa-check col-lg-1 col-md-1 col-sm-1 col-xs-1"></i>
 										<p class="col-lg-11 col-md-11 col-sm-11 col-xs-1"> We are equipped with an updated technical
 											knowledge to serve our customers
 											<br> properly. Our method of application maintains the industry.
@@ -126,15 +126,15 @@
 								<h2 class="font1">Get Altech</h2>
 								<div class="rows">
 									<div class="checker">
-										<i class="fas fa-check col-lg-1"></i>
+										<i class="fa fa-check col-lg-1"></i>
 										<p class="col-lg-11">Real-Time Monitoring</p>
 									</div>
 									<div class="checker">
-										<i class="fas fa-check col-lg-1"></i>
+										<i class="fa fa-check col-lg-1"></i>
 										<p class="col-lg-11">Infrstracture</p>
 									</div>
 									<div class="checker">
-										<i class="fas fa-check col-lg-1"></i>
+										<i class="fa fa-check col-lg-1"></i>
 										<p class="col-lg-11">We are equipped with an updated technical knowledge to serve our customers<br> properly. Our method of application maintains the industry.
 										</p>
 									</div>
